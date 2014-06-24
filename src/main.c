@@ -150,6 +150,12 @@ void setFilePaths(int argc, char *argv[]) {
     // Get our executable location.
     applicationpath = getRuntimePath(argc, argv);
 
+    // Fix the path if the application path is '/usr/local/bin' instead of '/usr/local'
+    char* localBinPath = "/usr/local/bin";
+    if (strstr(applicationpath, localBinPath) != NULL) {
+        applicationpath = "/usr/local/bin/..";
+    }
+
     // Set our image locations.
     file_logo_png = g_strdup_printf("%s/../share/gmtp/logo.png", applicationpath);
     file_icon48_png = g_strdup_printf("%s/../share/gmtp/gmtpicon.png", applicationpath);
