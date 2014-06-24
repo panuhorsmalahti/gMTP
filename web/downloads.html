@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+        <meta name="description" content="gMTP MP3 Player Client for UNIX, Solaris, Linux and BSD Based systems" />
+        <meta name="keywords" content="gMTP, MP3, MTP, media transfer protocol, Solaris, Linux, BSD, UNIX" />
+        <meta name="author" content="Darran Kartaschew" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="Modern" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" media="print" title="Modern" />
+
+        <title>gMTP v1.3.6 - A simple MP3 and Media Player Client for UNIX and UNIX like systems</title>
+    </head>
+    <body>
+
+        <div class="noprint">
+        <nav>
+            <ul class="fancyNav">
+                <li id="home"><a href="index.html" class="homeIcon">Home</a></li>
+                <li id="features"><a href="features.html">Features</a></li>
+                <li id="download"><a href="downloads.html">Downloads</a></li>
+                <li id="usage"><a href="usage.html">Usage</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id="ContentArea">
+        <h1>gMTP Installation</h1>
+            <h2>Binary Packages</h2>
+            <p>A number of Linux distributions and FreeBSD already include gMTP in their software repository</p>
+            <dl>
+                <dt>Oracle Solaris 10</dt>
+                <dd>Download SYSV package as listed below, gunzip it and use 'pkgadd -d gMTP-1.3.6-i386.pkg' to install.</dd>
+                
+                <dt>FreeBSD</dt>
+                <dd>gMTP is available in the ports collection at audio/gmtp.</dd>
+                
+                <dt>Debian GNU/Linux</dt>
+                <dd>gMTP is available from wheezy (7.x), jessie (8.x) and sid. Use 'apt-get' to install.</dd>
+                
+                <dt>Ubuntu</dt>
+                <dd>gMTP is available in the universe package lists. Use 'apt-get' to install.</dd>
+                
+                <dt>Arch Linux</dt>
+                <dd>gMTP is available in the AUR (Arch User Repository).
+                    See: <a href="https://aur.archlinux.org/packages.php?ID=47774">
+                        https://aur.archlinux.org/packages.php?ID=47774
+                    </a></dd>
+                
+                <dt>Gentoo Linux</dt>
+                <dd>gMTP is available in the main repository. Use 'emerge gmtp' to install.</dd>
+                
+                <dt>The Chakra Project</dt>
+                <dd>gMTP is available in the CCR.
+                    See: <a href="http://chakra-project.org/ccr/packages.php?ID=1893">
+                        http://chakra-project.org/ccr/packages.php?ID=1893
+                    </a></dd>
+                
+                <dt>Calculate Linux</dt>
+                <dd>gMTP is available in the main repository. Use 'emerge gmtp' to install.</dd>
+                
+                <dt>Slackware</dt>
+                <dd>A private Slackware 14 x86_64 package has been built and available 
+                    <a href="http://www.ghettonet.org/2012/10/samsung-s3-galaxy-gmtp-file-access.html">here</a></dd>
+                    
+                <dt>OpenSUSE</dt>
+                <dd>gMTP is available in the main repository from v12.2 onwards. Use yum/zypper to install.</dd>
+                
+                <dt>Fedora</dt>
+                <dd>gMTP is available in the main repository from Fedora 19 onwards. Use yum into install.</dd>
+            </dl>
+            <h2>Current Release</h2>
+            <p>
+                gMTP Source: <a href="http://sourceforge.net/projects/gmtp/files/gMTP-1.3.6/gmtp-1.3.6.tar.gz/download">gMTP-1.3.6.tar.gz</a></p>
+            <p>
+                gMTP Solaris 10 Package: <a href="http://sourceforge.net/projects/gmtp/files/gMTP-1.3.6/gmtp-1.3.6-i386.pkg.gz/download">gMTP-1.3.6-i386.pkg.gz</a> (Warning: Does NOT
+                contain libmtp, libflac or libid3tag).</p>
+            <h3>Previous Releases</h3>
+            <p>
+                All previous releases are available from <a href="https://sourceforge.net/projects/gmtp/files/">gMTP Downloads on Sourceforge</a></p>
+            <h3>git Repository</h3>
+            <p>
+                Anonymous read-only access is available via:</p>
+            <p>
+                <code>$ git clone http://git.code.sf.net/p/gmtp/code gmtp-code</code></p>
+            <p>
+                or via web: <a href="https://sourceforge.net/p/gmtp/code/">https://sourceforge.net/p/gmtp/code/</a></p>
+            <p>
+                Please be aware that the git version may be horribly broken or may not even compile, and I would always recommend the latest stable
+                release for general use.</p>
+            <h3>CVS Repository - Deprecated!</h3>
+            <p> The CVS repository was retired with v1.3.4. Unfortunately, no history was transferred into the git repository, so the CVS is left for 
+                historical purposes.</p>
+            <p>
+                Anonymous read-only access is available via:</p>
+            <p>
+                <code>$ cvs -z3 -d:pserver:anonymous@gmtp.cvs.sourceforge.net:/cvsroot/gmtp checkout -P Hellfire/gMTP</code></p>
+            <p>
+                or via web: <a href="http://gmtp.cvs.sourceforge.net/viewvc/gmtp/">http://gmtp.cvs.sourceforge.net/viewvc/gmtp/</a></p>
+            <p>
+                Please be aware that the CVS version may be horribly broken or may not even compile, and I would always recommend the latest stable
+                release for general use.</p>
+            <h2>Installation (Source)</h2>
+            <p>These instructions are from a Oracle Solaris 10 perspective. You may need to adjust some commands to
+                accommodate your respective Operating System.</p>
+            <h3>libmtp</h3>
+                <p>Download the libmtp source code, unpack and run:</p>
+                <p class="code">
+                    <code>
+                        $ CFLAGS="-I/usr/sfw/lib -L/usr/sfw/lib -R/usr/sfw/lib" INSTALL=/usr/ucb/install MAKE=gmake ./configure <br />
+                        $ gmake <br />
+                        # gmake install
+                    </code>
+                </p>
+                <p>
+                    Note: If you don't have a libusb.pc file (configure may complain about libusb being missing on
+                    Solaris 10/11), then you can use this <a href="libusb.pc">one</a>. Copy to
+                    <code>/usr/lib/pkgconfig/libusb.pc</code>.</p>
+                <p>
+                    Once installed, test the mtp package by connecting your MP3 player, and run <code>mtp-detect</code>
+                    from a terminal prompt. If all is well, you should see your device details scroll across the screen.</p>
+            <h3>libid3tag</h3>
+                <p>
+                    Download the libid3tag source code, unpack and run:</p>
+                <p class="code">
+                    <code>
+                        $ INSTALL=/usr/ucb/install MAKE=gmake ./configure<br />
+                        $ gmake <br />
+                        # gmake install
+                    </code>
+                </p>
+                <p>
+                    Copy <a href="id3tag.pc">id3tag.pc</a> to <code>/usr/local/lib/pkgconfig/id3tag.pc</code></p>
+            <h3>libflac</h3>
+                <p>Download the FLAC source code, unpack and run:</p>
+                <p class="code">
+                    <code>
+                        $ INSTALL=/usr/ucb/install MAKE=gmake ./configure <br />
+                        $ gmake <br />
+                        # gmake install
+                    </code>
+                </p>
+            <h3>gMTP</h3>
+                <p>
+                    Download and unpack the source code. Run <code>./configure</code>. The configure script will
+                    automatically select GTK+ 3 if found, otherwise will fall back to using GTK+ 2. To override
+                    the, use <code>--with-gtk3</code> to force GTK+3 or use <code>--with-gtk2</code> to force
+                    using GTK+ 2.</p>
+                <h4>Build from source code</h4>
+                <p class="code">
+                    <code>
+                        $ ./configure<br />
+                        $ make<br />
+                        # make install
+                    </code>
+                </p>
+                <p>
+                    Then run </p>
+                <p class="code">
+                    <code>$ gmtp</code>
+                </p>
+                <p>
+                    to start the application. <code># make install</code> should add the desktop shortcut
+                    and setup the gconf/gsettings configuration correctly.
+                    </p>
+                <p>Note: For Solaris 10, it is recommended that Solaris Studio C compiler be used to build gMTP.
+                Therefore it is recommended that the environment variable CC be set to cc. e.g. <code>$./configure CC=cc</code>
+                is used to build gMTP.</p>
+        </div>
+        <div class="noprint">
+        <footer>
+            <p class="align_center">Copyright &copy; 2014 Darran Kartaschew. All rights reserved.</p>
+        </footer>
+        </div>
+    </body>
+</html>
+
+

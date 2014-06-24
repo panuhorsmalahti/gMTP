@@ -1,0 +1,14 @@
+     ../src/about.c \
+     ../src/albumart.c \
+     ../src/callbacks.c \
+     ../src/dnd.c  \
+     ../src/formatdevice.c \
+     ../src/interface.c \
+     ../src/main.c  \
+     ../src/metatag_info.c \
+     ../src/mtp.c  \
+     ../src/playlist.c \
+     ../src/preferences.c \
+     ../src/prefs.c \
+     ../src/progress.c \
+     ../src/properties.c

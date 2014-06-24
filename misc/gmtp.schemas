@@ -1,0 +1,257 @@
+<gconfschemafile>
+    <schemalist>
+      <schema>
+      <key>/schemas/apps/gMTP/autoconnectdevice</key>
+      <applyto>/apps/gMTP/autoconnectdevice</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Auto Connect Device on Start</short>
+        <long>Auto Connect Device on Start</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/promptDownloadPath</key>
+      <applyto>/apps/gMTP/promptDownloadPath</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>true</default>
+        <short>Always Prompt for Download Path</short>
+        <long>Always Prompt for Download Path</long>
+      </locale>
+    </schema>
+	<schema>
+      <key>/schemas/apps/gMTP/promptOverwriteFile</key>
+      <applyto>/apps/gMTP/promptOverwriteFile</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>true</default>
+        <short>Prompt if file exists and about to overwrite</short>
+        <long>Prompt if file exists and about to overwrite</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/confirmFileDelete</key>
+      <applyto>/apps/gMTP/confirmFileDelete</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Confirm File Delete Operations</short>
+        <long>Confirm File Delete Operations</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/DownloadPath</key>
+      <applyto>/apps/gMTP/DownloadPath</applyto>
+      <owner>gMTP</owner>
+      <type>string</type>
+      <locale name="C">
+        <default>/</default>
+        <short>Download Path</short>
+        <long>Download Path</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/UploadPath</key>
+      <applyto>/apps/gMTP/UploadPath</applyto>
+      <owner>gMTP</owner>
+      <type>string</type>
+      <locale name="C">
+        <default>/</default>
+        <short>Upload Path</short>
+        <long>Upload Path</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewFileSize</key>
+      <applyto>/apps/gMTP/viewFileSize</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>true</default>
+        <short>Toggle to view file size in main window</short>
+        <long>Toggle to view file size in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewFileType</key>
+      <applyto>/apps/gMTP/viewFileType</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view file type in main window</short>
+        <long>Toggle to view file type in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewTrackNumber</key>
+      <applyto>/apps/gMTP/viewTrackNumber</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track number in main window</short>
+        <long>Toggle to view track number in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewTitle</key>
+      <applyto>/apps/gMTP/viewTitle</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track title in main window</short>
+        <long>Toggle to view track title in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewArtist</key>
+      <applyto>/apps/gMTP/viewArtist</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track artist in main window</short>
+        <long>Toggle to view track artist in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewAlbum</key>
+      <applyto>/apps/gMTP/viewAlbum</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track album in main window</short>
+        <long>Toggle to view track album in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewYear</key>
+      <applyto>/apps/gMTP/viewYear</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track year in main window</short>
+        <long>Toggle to view track year in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewGenre</key>
+      <applyto>/apps/gMTP/viewGenre</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track genre in main window</short>
+        <long>Toggle to view track genre in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewDuration</key>
+      <applyto>/apps/gMTP/viewDuration</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view track duration in main window</short>
+        <long>Toggle to view track duration in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewFolders</key>
+      <applyto>/apps/gMTP/viewFolders</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to view folder tree list in main window</short>
+        <long>Toggle to view folder tree list in main window</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/autoAddTrackPlaylist</key>
+      <applyto>/apps/gMTP/autoAddTrackPlaylist</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Toggle to automatically add a new track to a playlist</short>
+        <long>Toggle to automatically add a new track to a playlist</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/ignorepathinplaylist</key>
+      <applyto>/apps/gMTP/ignorepathinplaylist</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Ignore path in playlist file when importing a playlist</short>
+        <long>Ignore path in playlist file when importing a playlist</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/suppressalbumerrors</key>
+      <applyto>/apps/gMTP/suppressalbumerrors</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Suppress Album related errors for some devices</short>
+        <long>Suppress Album related errors for some devices</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/alternateaccessmethod</key>
+      <applyto>/apps/gMTP/alternateaccessmethod</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Use alternate access method for Android based devices.</short>
+        <long>Use alternate access method for Android based devices.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/allmediaasfiles</key>
+      <applyto>/apps/gMTP/allmediaasfiles</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>false</default>
+        <short>Treat all media files as regular files.</short>
+        <long>Treat all media files as regular files.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/viewtoolbar</key>
+      <applyto>/apps/gMTP/viewtoolbar</applyto>
+      <owner>gMTP</owner>
+      <type>bool</type>
+      <locale name="C">
+        <default>true</default>
+        <short>View toolbar.</short>
+        <long>Enable toolbar.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/gMTP/toolbarstyle</key>
+      <applyto>/apps/gMTP/toolbarstyle</applyto>
+      <owner>gMTP</owner>
+      <type>string</type>
+      <locale name="C">
+        <default>both</default>
+        <short>Toolbar style.</short>
+        <long>Toolbar style - both/icon/text.</long>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>

@@ -1,0 +1,225 @@
+
+-- v1.3.6 - 10 Mar 2014
+
++ Add Russian Translation
+
+-- v1.3.5 - 25 Jan 2014
+
+* Move from CVS to git. (what took so long)? No history was imported into the git repository due unusual 
+  artifacts in the CVS repo. The CVS repo will be left for historical records only, but all new
+  development will be done against the git repo.
+* Change to using autotools for build (replaces custom Makefile). GTK version is now autodetected. (GTK3
+  will use gsettings, GTK2 will use gconf backends as before).
++ Update the progress dialog to display friendly sizes instead of sizes in just KB.
++ Added preference to send all media files via the regular file API. Note: updated gconf/gsettings
+  schema. (Android enhancement).
++ Set the progress dialog to be reused for each file being transferred.
++ Fix crash on deleting last playlist on device (GTK3).
++ Correct intermittent issue with Find operation when using Alternate Access Method and Android devices.
+
+-- v1.3.4 - 14 Nov 2012
++ Add new preference to ignore album handling errors (Android enhancement). Note: updated gconf/gsettings
+  schema.
++ Add new preference to use alternate access method for devices (uncached mode and as needed file data). 
+  (Android enhancement). This may slow done gMTP as it no longer caches file information and will get file
+  information each time the folder is changed. 
++ Added note for new Slackware version on gMTP home page.
+* Fix date handling for some devices, ensuring date format is as per MTP v1.0 Specification Section 3.2.5.
+* Modify GTK3 version to remove some depreciated GTK widgets. (Still have to consider boxes vs grid).
+* WARNING: gMTP now requires libmtp 1.1.5 or newer due to the alternate access method.
+
+-- v1.3.3 - 15 Jun 2012
+* Correct handling of delete and download operation when '..' folder is selected.
+
+-- v1.3.2 - 14 Jun 2012
+* Correct Makefile to fix when building with GTK+-3.4. (Missing gthread-2.0 from pkg-config).
+* Reworked pkg-config handling to respect $(PKG_CONFIG) in Makefile. (Thank you Mike Frysinger
+  for pointing this out, and supplying a patch).
+* Add additional error checking on connection of new devices, to hopefully avoid seg-fault with
+  some very problematic devices. (Ubuntu Bug #917314, #948621, #968798, #995503)
+* Fix issue with some Android 3.2 implementations and GetStorage() MTP API function. (Uses cached
+  information, rather than full item rescan in some instances).
+  (Debian bug #667795 - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=667795 )
+* Correct German Translations. (Something went wrong in saving the file, and was changed from being
+  recognised as UTF-8 to being recognised as ASCII - My apologies). 
+  (Debian bug #672298 - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=672298)
+* Fix FLAC file handling. (Bug only showed up in Gentoo Linux for some reason)? (Thank you 
+  Martin Benirschka for helping troubleshoot this one).
+
+-- v1.3.1 - 20 Feb 2012
+* Change default to ask for Download folder upon initial installation.
+* Fix folder view on devices with multiple storage pools (Android enhancement).
+* Change album metadata update error only once during file upload session. (Android enhancement).
+
+-- v1.3.0 - 25 Dec 2011
++ Added folder name to title bar as per Gnome 2.0 HIG Section 2.1.
++ Added search toolbar for searching for files/tracks/folders on the device.
++ Added add to playlist and remove from playlist options in context menu.
++ Added column selection context menu.
++ Added folder view to main window pane. (updated gconf/gsetting schema).
++ Extended drag'n'drop support to include folder view. ie, drag files/folders from Nautilus onto a
+  folder in the folder view, and upload to that particular folder.
++ Added support for Solaris 11.
++ Updated German translation - thanks to Laurenz Kamp.
++ Added a few keyboard shortcuts.
++ Added Select All function.
+* Fix javascript issue on website (duplicate function name with an imported JS library).
+* Fix mp3 track length calculation on "MPEG2 - Layer 3" files. (All others were correct).
+* Fix 'doesn't prompt for download path on doubleclick when prompt for download path option enabled'.
+* Fix non-display of default image art if album has no album art attached, in cases when
+  album representative data is found, but is not valid image data.
+* Fix WM_CLASS for Gnome 3 environments.
+* Fix Properties dialog with GTK 3.2+.
+* Fix a few very minor compiler warnings.
+* Using GTK About Dialog on supported platforms.
+* SYSV Solaris package is now for Solaris 11.
+
+-- v1.2.0 - 4 Aug 2011
++ Added ability to download entire folder tree in one operation.
++ Added import and export of playlists in m3u format. (updated gconf/gsetting schema).
+* Disallowed upload of *.PLA or *.ALB files as these map directly to Playlists and 
+  Album metadata pointers on the device. (Allowing this may result in corrupt metadata
+  on the device).
+* New website design... (hope you like it).
+
+-- v1.1.0 - 5 Jul 2011
+* Fix Solaris SYSV Package (fix missing image files).
+* Fix potential double-free memory error in mtp.c. reported here:
+  http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=632454
+* Fixed filename when downloading files from device to PC. (Bug introduced in v1.0.0).
++ Added automatic add new track to playlist option. (updated gconf/gsetting schema).
+
+-- v1.0.1 - 27 Jun 2011
+* Fix application icon size with Window Maker.
++ Added Format Device Option.
+- General code cleanup.
+
+-- v1.0.0 - 18 Jun 2011
+* Fix compile issues with GTK3 based systems.
+* Fix segfault if user closes progress dialog mid-transfer.
+* Added TEXT file type detection.
++ Add Cancel button to stop download/upload of files. (Needed for GNOME3 (gnome-shell)).
++ In Album Art Dialog, show current Album Art File if present.
++ In Album Art Dialog, allow removal or download of Album Art.
++ Rework Album Art Dialog to improve workflow.
++ Added ability to rename files/folders on the device.
++ Added icons within file view.
++ Updated Properties Window layout to better suit smaller screens.
+
+-- v0.9.1 - 28 Apr 2011
+* Fix "File continues to be uploaded, even if cancelling the upload" bug,
+  reported here: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=624117
+
+-- v0.9 - 18 Feb 2011
++ Add experimental GNOME 3.0 support. Use 'gmake gtk3' to build using GTK3 and
+  GSettings instead of GTK2 and GConf.
+* Fix some minor memleaks in mtp.c
+* Add in check for album name only when looking for an album when updating
+  album info.
+
+-- v0.8.1 - 25 Jan 2011
+
+* Update Italian Translation - thanks to Francesca Ciceri !
+* Modify Makefile for separate GConf schema installation.
+
+-- v0.8 -23 Jan 2011
+
++ Licence change from CDDL to BSD. Updated all source files to include
+  licence notice.
++ Added basic playlist support.
++ "make install" no longer installation documentation, use "make install-doc"
+  instead. (As requested for inclusion in some Linux distributions).
++ Multilingual support in UI - currently English, French, German, Spanish,
+  Italian and Danish Translations.
++ Add in additional columns in main view to show audio file information.
+  Columns shown can be selected using the 'View' menu.
++ Updated gconf schema file.
+* Restructured directory setup for source code.
+* Fixed Makefile build option for some Linux systems that use "--as-needed"
+  flag.
+* Changed extension of GConf schema file to be inline with GConf documentation.
+* Fixed possible buffer overflow in WMA metatag code. (This would be result of
+  malformed header object fields).
+* Ensured all errors to console are displayed to stderr.
+* Fixed track length metadata for all file audio file types.
+* Fixed sorting of columns for filename, so that folders are always first/last.
+
+
+-- v0.7 - 25 Nov 2010
+
++ Added FLAC metadata support (required FLAC 1.2+)
++ Added OggVorbis metadata support (requires vorbis 1.0.1+)
++ Added WMA metadata support.
+* Fixed missing header in mtp.c for some Linux distro's (string.h).
+* Made application and file paths all lower case inline with freedesktop
+  guidelines.
+* Changed *.desktop file inline with freedesktop guidelines.
+* Fixed NULL pointer fault with MP3's that have no TRACKNUMBER tag.
+
+-- v0.6 - 23 Jun 2010
+
++ Added abilty to Drag'n'Drop in Folders and have them upload entire folder
+  structure.
+* Fixed compliation issue on Linux based systems.
+* Updated gconf handling.
+* Fixed gconf schema installation. (You need to logout and login on Solaris 10
+  for the schema to be made available to the application after installation).
+
+-- v0.5 - 1 Jun 2010
+
++ Added Tooltips to toolbar buttons.
+* Made default window size now 760px to handle JDS default DPI setting of 96.
+
+-- v0.4 - 12 Jan 2010
+
++ Added right click interace on the main file display area.
++ Added check to see if we are about to overwrite a file on the devices
+  filesystem, and prompt user to overwrite file?
++ Added support for Albums and Album Art. (Albums are created automatically,
+  while art is uploaded by user).
+* Fixed if no lines selected, then display info box to user indicating this
+  on file delete, file download and folder delete operation. (Rather than
+  asking the user to confirm operation on selection and then not doing
+  anything).
+* Cleaned up the find_filetype() function.
+* Fixed column sorting for file size column.
+* Fixed reading MP3 ID3 Tags in relation to the artist. (Now scan all 5 fields
+  that the artist can live in, rather than just the one it should be in).
+
+-- v0.3 - 8 Jan 2010
+
++ gMTP is now relocatable within a filesytem. At startup, it will look at
+  the command used to invoke it, and if an absolute path was used, it will
+  find it's image data from that otherwise will attempt to find itself in
+  the filesystem using the %PATH variable. Just make sure that you copy
+  "../share/gMTP/*" to be relative to the binary if moved, otherwise no
+  pretty icons. You can override any file paths with --datapath option at
+  the CLI. (This was done to allow the SYSV and IPS packages to be
+  relocatable). See main.c (last 2 functions) to see how this is done.
+  If you know a better way that works everywhere, please let me know.
++ Added check to see if we are about to overwrite a file on the hosts
+  filesystem, and prompt user to overwrite file?
++ Added Drag'n'Drop interface (well only drop into gMTP at this time).
+* Changed Toolbar button for connect device description.
+* Fixed process when uploading mp3 to a device to include file metadata
+  as well. eg Artist, Album, Track, etc. (requires libid3tag).
+
+-- v0.2 - 30 Dec 2009
+
++ Added new menu items to mimic toolbar options, eg file upload, file
+  download, etc.
++ Added ability to add and remove folders.
++ Added confirm delete file/folder option when removing files/folder from
+  device.
++ Added ability to change device name.
++ Added in icon for application.
++ Added in SYSV pkg creation in Makefile.
++ Added support for multiple device detection and storage device detection,
+  and selection of device during connection.
++ Updated schema for gconf for new options (confirm remove of file/folders).
++ Updated About Dialog Box.
+
+-- v0.1 - 16  Dec  2009
+
++ Initial version for public. Only does basic items such as upload, download
+  and remove files.

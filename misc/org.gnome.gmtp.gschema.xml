@@ -1,0 +1,119 @@
+<schemalist>
+    <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.gmtp" path="/apps/gMTP/">
+        <key name="autoconnectdevice" type="b">
+            <default>false</default>
+            <summary>Auto Connect Device on Start</summary>
+            <description>Auto Connect Device on Start</description>
+        </key>
+        <key name="promptdownloadpath" type="b">
+            <default>true</default>
+            <summary>Always Prompt for Download Path</summary>
+            <description>Always Prompt for Download Path</description>
+        </key>
+        <key name="promptoverwritefile" type="b">
+            <default>true</default>
+            <summary>Prompt if file exists and about to overwrite</summary>
+            <description>Prompt if file exists and about to overwrite</description>
+        </key>
+        <key name="confirmfiledelete" type="b">
+            <default>false</default>
+            <summary>Confirm File Delete Operations</summary>
+            <description>Confirm File Delete Operations</description>
+        </key>
+        <key name="downloadpath" type="s">
+            <default>'/'</default>
+            <summary>Download Path</summary>
+            <description>Download Path</description>
+        </key>
+        <key name="uploadpath" type="s">
+            <default>'/'</default>
+            <summary>Upload Path</summary>
+            <description>Upload Path</description>
+        </key>
+        <key name="viewfilesize" type="b">
+            <default>true</default>
+            <summary>Toggle to view file size in main window</summary>
+            <description>Toggle to view file size in main window</description>
+        </key>
+        <key name="viewfiletype" type="b">
+            <default>false</default>
+            <summary>Toggle to view file type in main window</summary>
+            <description>Toggle to view file type in main window</description>
+        </key>
+        <key name="viewtracknumber" type="b">
+            <default>false</default>
+            <summary>Toggle to view track number in main window</summary>
+            <description>Toggle to view track number in main window</description>
+        </key>
+        <key name="viewtitle" type="b">
+            <default>false</default>
+            <summary>Toggle to view track title in main window</summary>
+            <description>Toggle to view track title in main window</description>
+        </key>
+        <key name="viewartist" type="b">
+            <default>false</default>
+            <summary>Toggle to view track artist in main window</summary>
+            <description>Toggle to view track artist in main window</description>
+        </key>
+        <key name="viewalbum" type="b">
+            <default>false</default>
+            <summary>Toggle to view track album in main window</summary>
+            <description>Toggle to view track album in main window</description>
+        </key>
+        <key name="viewyear" type="b">
+            <default>false</default>
+            <summary>Toggle to view track year in main window</summary>
+            <description>Toggle to view track year in main window</description>
+        </key>
+        <key name="viewgenre" type="b">
+            <default>false</default>
+            <summary>Toggle to view track genre in main window</summary>
+            <description>Toggle to view track genre in main window</description>
+        </key>
+        <key name="viewduration" type="b">
+            <default>false</default>
+            <summary>Toggle to view track duration in main window</summary>
+            <description>Toggle to view track duration in main window</description>
+        </key>
+        <key name="viewfolders" type="b">
+            <default>false</default>
+            <summary>Toggle to view folder tree list in main window</summary>
+            <description>Toggle to view folder tree list in main window</description>
+        </key>
+        <key name="autoaddtrackplaylist" type="b">
+            <default>false</default>
+            <summary>Toggle to automatically add a new track to a playlist</summary>
+            <description>Toggle to automatically add a new track to a playlist</description>
+        </key>
+        <key name="ignorepathinplaylist" type="b">
+            <default>false</default>
+            <summary>Ignore path in playlist file when importing a playlist</summary>
+            <description>Ignore path in playlist file when importing a playlist</description>
+        </key>
+        <key name="suppressalbumerrors" type="b">
+            <default>false</default>
+            <summary>Suppress Album related errors for some devices</summary>
+            <description>Suppress Album related errors for some devices</description>
+        </key>
+        <key name="alternateaccessmethod" type="b">
+            <default>false</default>
+            <summary>Use alternate access method for Android based devices.</summary>
+            <description>Use alternate access method for Android based devices.</description>
+        </key>
+        <key name="allmediaasfiles" type="b">
+            <default>false</default>
+            <summary>Treat all media files as regular files.</summary>
+            <description>Treat all media files as regular files.</description>
+        </key>
+        <key name="viewtoolbar" type="b">
+            <default>true</default>
+            <summary>View toolbar.</summary>
+            <description>View toolbar.</description>
+        </key>
+        <key name="toolbarstyle" type="s">
+            <default>'both'</default>
+            <summary>Toolbar style.</summary>
+            <description>Toolbar style - both/icon/text.</description>
+        </key>
+    </schema>
+</schemalist>

@@ -1,0 +1,1849 @@
+#: src/main.c:127 src/callbacks.c:396
+msgid "No device attached"
+msgstr ""
+
+#: src/interface.c:289
+msgid "_File"
+msgstr ""
+
+#: src/interface.c:298 src/callbacks.c:400
+msgid "Connect Device"
+msgstr ""
+
+#: src/interface.c:308 src/interface.c:4146
+msgid "Add Files"
+msgstr ""
+
+#: src/interface.c:314 src/interface.c:4150
+msgid "Delete Files"
+msgstr ""
+
+#: src/interface.c:320 src/interface.c:4158
+msgid "Rename File"
+msgstr ""
+
+#: src/interface.c:326 src/interface.c:4162 src/interface.c:4356
+#: src/interface.c:5737
+msgid "Move To..."
+msgstr ""
+
+#: src/interface.c:332 src/interface.c:4154
+msgid "Download Files"
+msgstr ""
+
+#: src/interface.c:340 src/interface.c:4182 src/interface.c:4344
+msgid "Create Folder"
+msgstr ""
+
+#: src/interface.c:347 src/interface.c:4186 src/interface.c:4352
+msgid "Delete Folder"
+msgstr ""
+
+#: src/interface.c:357 src/interface.c:4194 src/interface.c:4364
+msgid "Refresh Device"
+msgstr ""
+
+#: src/interface.c:363
+msgid "Device Properties"
+msgstr ""
+
+#: src/interface.c:375
+msgid "_Edit"
+msgstr ""
+
+#: src/interface.c:385
+msgid "Select All"
+msgstr ""
+
+#: src/interface.c:402 src/interface.c:3618
+msgid "Change Device Name"
+msgstr ""
+
+#: src/interface.c:408 src/callbacks.c:1119
+msgid "Format Device"
+msgstr ""
+
+#: src/interface.c:420 src/interface.c:583 src/interface.c:3918
+msgid "Album Art"
+msgstr ""
+
+#: src/interface.c:426
+msgid "Edit Playlist(s)"
+msgstr ""
+
+#: src/interface.c:438
+msgid "_View"
+msgstr ""
+
+#: src/interface.c:446
+msgid "Folders"
+msgstr ""
+
+#: src/interface.c:454 src/interface.c:4254
+msgid "File Size"
+msgstr ""
+
+#: src/interface.c:458 src/interface.c:1158 src/interface.c:1167
+#: src/interface.c:4258
+msgid "File Type"
+msgstr ""
+
+#: src/interface.c:462 src/interface.c:4262
+msgid "Track Number"
+msgstr ""
+
+#: src/interface.c:466 src/interface.c:1203 src/interface.c:1212
+#: src/interface.c:4266
+msgid "Track Name"
+msgstr ""
+
+#: src/interface.c:470 src/interface.c:1222 src/interface.c:1231
+#: src/interface.c:4270 src/interface.c:4802 src/interface.c:4872
+msgid "Artist"
+msgstr ""
+
+#: src/interface.c:474 src/interface.c:1241 src/interface.c:1250
+#: src/interface.c:4274 src/interface.c:4812 src/interface.c:4882
+msgid "Album"
+msgstr ""
+
+#: src/interface.c:478 src/interface.c:1260 src/interface.c:1269
+#: src/interface.c:4278
+msgid "Year"
+msgstr ""
+
+#: src/interface.c:482 src/interface.c:1279 src/interface.c:1288
+#: src/interface.c:4282
+msgid "Genre"
+msgstr ""
+
+#: src/interface.c:486 src/interface.c:1298 src/interface.c:1307
+#: src/interface.c:4286 src/interface.c:4840 src/interface.c:4910
+msgid "Duration"
+msgstr ""
+
+#: src/interface.c:490
+msgid "_Help"
+msgstr ""
+
+#: src/interface.c:500
+msgid "_About"
+msgstr ""
+
+#: src/interface.c:529 src/callbacks.c:393
+msgid "Connect"
+msgstr ""
+
+#: src/interface.c:533 src/interface.c:535
+msgid "Connect/Disconnect to your device."
+msgstr ""
+
+#: src/interface.c:545 src/interface.c:4504
+msgid "Add"
+msgstr ""
+
+#: src/interface.c:549 src/interface.c:551
+msgid "Add Files to your device."
+msgstr ""
+
+#: src/interface.c:549
+msgid "Add a varity of Files to your device in the current folder."
+msgstr ""
+
+#: src/interface.c:556
+msgid "Delete"
+msgstr ""
+
+#: src/interface.c:560 src/interface.c:562
+msgid "Delete Files/Folders from your device."
+msgstr ""
+
+#: src/interface.c:560
+msgid ""
+"Permanently remove files/folders from your device. Note: Albums are stored "
+"as *.alb files."
+msgstr ""
+
+#: src/interface.c:567 src/interface.c:4015
+msgid "Download"
+msgstr ""
+
+#: src/interface.c:571 src/interface.c:573
+msgid "Download Files from your device to your Host PC."
+msgstr ""
+
+#: src/interface.c:571
+msgid ""
+"Download files from your device to your PC. Default Download path is set in "
+"the preferences dialog."
+msgstr ""
+
+#: src/interface.c:587 src/interface.c:589
+msgid "Upload an image file as Album Art."
+msgstr ""
+
+#: src/interface.c:587
+msgid "Upload a JPG file and assign it as Album Art."
+msgstr ""
+
+#: src/interface.c:594 src/interface.c:5448
+msgid "Playlists"
+msgstr ""
+
+#: src/interface.c:598 src/interface.c:600
+msgid "Add and Modify Playlists."
+msgstr ""
+
+#: src/interface.c:605
+msgid "Refresh"
+msgstr ""
+
+#: src/interface.c:609 src/interface.c:611
+msgid "Refresh File/Folder listing."
+msgstr ""
+
+#: src/interface.c:621
+msgid "Properties"
+msgstr ""
+
+#: src/interface.c:625 src/interface.c:627
+msgid "View Device Properties."
+msgstr ""
+
+#: src/interface.c:632
+msgid "Preferences"
+msgstr ""
+
+#: src/interface.c:636 src/interface.c:638
+msgid "View/Change gMTP Preferences."
+msgstr ""
+
+#: src/interface.c:648 src/interface.c:652
+msgid "Quit"
+msgstr ""
+
+#: src/interface.c:652 src/interface.c:654
+msgid "Quit gMTP."
+msgstr ""
+
+#: src/interface.c:672
+msgid "Find:"
+msgstr ""
+
+#: src/interface.c:687
+msgid "Filenames"
+msgstr ""
+
+#: src/interface.c:692
+msgid "Track Information"
+msgstr ""
+
+#: src/interface.c:1073 src/interface.c:1088
+msgid "Filename"
+msgstr ""
+
+#: src/interface.c:1114 src/interface.c:1123
+msgid "Size"
+msgstr ""
+
+#: src/interface.c:1177 src/interface.c:1186 src/interface.c:4830
+#: src/interface.c:4900
+msgid "Track"
+msgstr ""
+
+#: src/interface.c:1325 src/interface.c:1334
+msgid "Location"
+msgstr ""
+
+#: src/interface.c:1351
+msgid "Folder"
+msgstr ""
+
+#: src/interface.c:1414
+msgid "Select Files to Add"
+msgstr ""
+
+#: src/interface.c:1877
+#, c-format
+msgid "Found %d items"
+msgstr ""
+
+#: src/interface.c:1879
+#, c-format
+msgid "Found %d item"
+msgstr ""
+
+#: src/interface.c:1958 src/interface.c:2000 src/callbacks.c:738
+msgid "Select Path to Download"
+msgstr ""
+
+#: src/interface.c:2091 src/interface.c:2092
+msgid "I don't know how to download a parent folder reference?\n"
+msgstr ""
+
+#: src/interface.c:2124
+msgid "Unable to move the selected file?\n"
+msgstr ""
+
+#: src/interface.c:2132 src/interface.c:2133 src/callbacks.c:959
+#: src/callbacks.c:960
+msgid "Unable to move the selected folder into itself?\n"
+msgstr ""
+
+#: src/interface.c:2150 src/callbacks.c:977
+msgid "Unable to move the selected folder?\n"
+msgstr ""
+
+#: src/interface.c:2156 src/interface.c:2157 src/callbacks.c:983
+#: src/callbacks.c:984
+msgid "Unable to move the selected folder underneath itself?\n"
+msgstr ""
+
+#: src/interface.c:2257 src/interface.c:2258
+msgid "I don't know how to delete a parent folder reference?\n"
+msgstr ""
+
+#: src/interface.c:2464
+msgid " Preferences"
+msgstr ""
+
+#: src/interface.c:2497
+msgid "Attempt to connect to Device on startup"
+msgstr ""
+
+#: src/interface.c:2501
+msgid "Utilize alternate access method"
+msgstr ""
+
+#: src/interface.c:2505
+msgid "<b>Device</b>"
+msgstr ""
+
+#: src/interface.c:2539
+msgid "Confirm File/Folder Delete"
+msgstr ""
+
+#: src/interface.c:2543
+msgid "Prompt if to Overwrite file if already exists"
+msgstr ""
+
+#: src/interface.c:2547
+msgid "Suppress Album Errors"
+msgstr ""
+
+#: src/interface.c:2551
+msgid "Treat all media as regular files"
+msgstr ""
+
+#: src/interface.c:2562
+msgid "<b>Playlist</b>"
+msgstr ""
+
+#: src/interface.c:2581
+msgid "Prompt to add New Music track to existing playlist"
+msgstr ""
+
+#: src/interface.c:2585
+msgid "Ignore path information when importing playlist"
+msgstr ""
+
+#: src/interface.c:2589
+msgid "<b>File Operations</b>"
+msgstr ""
+
+#: src/interface.c:2608
+msgid "Always show Download Path?"
+msgstr ""
+
+#: src/interface.c:2619
+msgid "Download Path:"
+msgstr ""
+
+#: src/interface.c:2626
+msgid "Upload Path:"
+msgstr ""
+
+#: src/interface.c:2659
+msgid "<b>Filepaths on PC</b>"
+msgstr ""
+
+#: src/interface.c:2807
+msgid " Properties"
+msgstr ""
+
+#: src/interface.c:2824
+msgid "<b>MTP Device Properties</b>"
+msgstr ""
+
+#: src/interface.c:2833
+msgid "<b>Raw Device Information</b>"
+msgstr ""
+
+#: src/interface.c:2856
+msgid "<b>Name:</b>"
+msgstr ""
+
+#: src/interface.c:2907
+msgid "<b>Model Number:</b>"
+msgstr ""
+
+#: src/interface.c:2916
+msgid "<b>Serial Number:</b>"
+msgstr ""
+
+#: src/interface.c:2925
+msgid "<b>Device Version:</b>"
+msgstr ""
+
+#: src/interface.c:2934
+msgid "<b>Manufacturer:</b>"
+msgstr ""
+
+#: src/interface.c:2943
+msgid "<b>Battery Level:</b>"
+msgstr ""
+
+#: src/interface.c:2952
+msgid "<b>Storage:</b>"
+msgstr ""
+
+#: src/interface.c:2968
+msgid "<b>Supported Formats:</b>"
+msgstr ""
+
+#: src/interface.c:2983
+msgid "<b>Secure Time:</b>"
+msgstr ""
+
+#: src/interface.c:2992
+msgid "<b>Sync Partner:</b>"
+msgstr ""
+
+#: src/interface.c:3039
+msgid "<b>Vendor:</b>"
+msgstr ""
+
+#: src/interface.c:3048
+msgid "<b>Product:</b>"
+msgstr ""
+
+#: src/interface.c:3057
+msgid "<b>Vendor ID:</b>"
+msgstr ""
+
+#: src/interface.c:3066
+msgid "<b>Product ID:</b>"
+msgstr ""
+
+#: src/interface.c:3075
+msgid "<b>Device Number:</b>"
+msgstr ""
+
+#: src/interface.c:3084
+msgid "<b>Bus Location:</b>"
+msgstr ""
+
+#: src/interface.c:3166
+#, c-format
+msgid "%d MB (free) / %d MB (total)"
+msgstr ""
+
+#: src/interface.c:3261
+msgid "file = ( x / x ) x %"
+msgstr ""
+
+#: src/interface.c:3366
+#, c-format
+msgid "%s - %s of %s (%d%%)"
+msgstr ""
+
+#: src/interface.c:3369
+#, c-format
+msgid "%s of %s (%d%%)"
+msgstr ""
+
+#: src/interface.c:3412 src/interface.c:3481
+msgid ""
+"A simple MTP Client for Solaris 10\n"
+"and other UNIX / UNIX-like systems\n"
+msgstr ""
+
+#: src/interface.c:3443
+msgid "translator-credits"
+msgstr ""
+
+#: src/interface.c:3451
+msgid "About gMTP"
+msgstr ""
+
+#: src/interface.c:3493
+msgid ""
+"<small>Copyright 2009-2013, Darran Kartaschew</small>\n"
+"<small>Released under the BSD Licence</small>"
+msgstr ""
+
+#: src/interface.c:3525
+msgid "Error"
+msgstr ""
+
+#: src/interface.c:3545
+msgid "Information"
+msgstr ""
+
+#: src/interface.c:3561
+msgid "New Folder"
+msgstr ""
+
+#: src/interface.c:3579
+msgid "Folder Name:"
+msgstr ""
+
+#: src/interface.c:3636
+msgid "Device Name:"
+msgstr ""
+
+#: src/interface.c:3678
+msgid "Rename File/Folder"
+msgstr ""
+
+#: src/interface.c:3696
+msgid "File Name:"
+msgstr ""
+
+#: src/interface.c:3738
+msgid "Connect to which device?"
+msgstr ""
+
+#: src/interface.c:3754
+msgid "Device:"
+msgstr ""
+
+#: src/interface.c:3780
+#, c-format
+msgid "Unknown : %04x:%04x @ bus %d, dev %d"
+msgstr ""
+
+#: src/interface.c:3817
+msgid "Connect to which storage device?"
+msgstr ""
+
+#: src/interface.c:3834
+msgid "Storage Device:"
+msgstr ""
+
+#: src/interface.c:3855
+#, c-format
+msgid "Unknown id: %d, %llu MB"
+msgstr ""
+
+#: src/interface.c:3890
+#, c-format
+msgid ""
+"File <b>%s</b> already exists in target folder.\n"
+"Do you want to:"
+msgstr ""
+
+#: src/interface.c:3892
+msgid "Skip"
+msgstr ""
+
+#: src/interface.c:3893
+msgid "Skip All"
+msgstr ""
+
+#: src/interface.c:3894
+msgid "Overwrite"
+msgstr ""
+
+#: src/interface.c:3895
+msgid "Overwrite All"
+msgstr ""
+
+#: src/interface.c:3897
+msgid "Question: Confirm Overwrite of Existing File?"
+msgstr ""
+
+#: src/interface.c:3945
+msgid "Album:"
+msgstr ""
+
+#: src/interface.c:3963
+msgid ""
+"No Albums available to set Album Art with. Either:\n"
+"1. You have no music files uploaded?\n"
+"2. Your device does not support Albums?\n"
+"3. Previous applications used to upload files do not autocreate albums for "
+"you or support the metadata for those files in order to create the albums "
+"for you?\n"
+msgstr ""
+
+#: src/interface.c:4006
+msgid "Upload"
+msgstr ""
+
+#: src/interface.c:4010
+msgid "Remove"
+msgstr ""
+
+#: src/interface.c:4170
+msgid "Add To Playlist"
+msgstr ""
+
+#: src/interface.c:4174
+msgid "Remove From Playlist"
+msgstr ""
+
+#: src/interface.c:4348
+msgid "Rename Folder"
+msgstr ""
+
+#: src/interface.c:4450
+msgid " Playlists"
+msgstr ""
+
+#: src/interface.c:4468
+msgid "Current Playlist: "
+msgstr ""
+
+#: src/interface.c:4487 src/interface.c:4489 src/interface.c:5491
+#: src/interface.c:5493
+msgid "Add New Playlist"
+msgstr ""
+
+#: src/interface.c:4513 src/interface.c:4515
+msgid "Remove Current Selected Playlist"
+msgstr ""
+
+#: src/interface.c:4530
+msgid "Del"
+msgstr ""
+
+#: src/interface.c:4541 src/interface.c:4543
+msgid "Import Playlist"
+msgstr ""
+
+#: src/interface.c:4553 src/interface.c:4555
+msgid "Export Playlist"
+msgstr ""
+
+#: src/interface.c:4574 src/interface.c:4576
+msgid "Device Audio Tracks"
+msgstr ""
+
+#: src/interface.c:4596 src/interface.c:4598
+msgid "Add file to playlist"
+msgstr ""
+
+#: src/interface.c:4613
+msgid "Add File"
+msgstr ""
+
+#: src/interface.c:4621 src/interface.c:4623
+msgid "Remove file from playlist"
+msgstr ""
+
+#: src/interface.c:4638
+msgid "Del File"
+msgstr ""
+
+#: src/interface.c:4652 src/interface.c:4654
+msgid "Playlist Audio Tracks"
+msgstr ""
+
+#: src/interface.c:4674 src/interface.c:4676
+msgid "Move selected file up in the playlist"
+msgstr ""
+
+#: src/interface.c:4683 src/interface.c:4685
+msgid "Move selected file down in the playlist"
+msgstr ""
+
+#: src/interface.c:4862
+msgid "Num"
+msgstr ""
+
+#: src/interface.c:5038
+msgid "New Playlist"
+msgstr ""
+
+#: src/interface.c:5056 src/interface.c:5467
+msgid "Playlist Name:"
+msgstr ""
+
+#: src/interface.c:5360 src/interface.c:5372 src/mtp.c:1769 src/mtp.c:1829
+msgid "realloc in savePlayList failed\n"
+msgstr ""
+
+#: src/interface.c:5361 src/interface.c:5373 src/mtp.c:1770 src/mtp.c:1830
+msgid "Updating playlist failed? 'realloc in savePlayList'\n"
+msgstr ""
+
+#: src/mtp.c:120 src/mtp.c:121
+msgid "Detect: No raw devices found.\n"
+msgstr ""
+
+#: src/mtp.c:124 src/mtp.c:125 src/mtp.c:133 src/mtp.c:134
+msgid "Detect: There has been an error connecting. \n"
+msgstr ""
+
+#: src/mtp.c:128 src/mtp.c:129
+msgid "Detect: Encountered a Memory Allocation Error. \n"
+msgstr ""
+
+#: src/mtp.c:155 src/mtp.c:156
+msgid "Detect: Unable to open raw device?\n"
+msgstr ""
+
+#: src/mtp.c:169 src/mtp.c:170
+msgid "Detect: No available Storage found on device?\n"
+msgstr ""
+
+#: src/mtp.c:253 src/mtp.c:258
+msgid "Unknown"
+msgstr ""
+
+#: src/mtp.c:271 src/mtp.c:279 src/mtp.c:296 src/mtp.c:304 src/mtp.c:312
+#: src/mtp.c:320 src/mtp.c:333 src/callbacks.c:1095
+msgid "N/A"
+msgstr ""
+
+#: src/mtp.c:359
+msgid "DevicePropeties: How did I get called?\n"
+msgstr ""
+
+#: src/mtp.c:484
+msgid "Failed to get storage parameters from the device - need to disconnect."
+msgstr ""
+
+#: src/mtp.c:496 src/mtp.c:504 src/callbacks.c:80 src/callbacks.c:89
+#: src/callbacks.c:365 src/callbacks.c:374 src/callbacks.c:1312
+#: src/callbacks.c:1320
+#, c-format
+msgid "Connected to %s - %d MB free"
+msgstr ""
+
+#: src/mtp.c:500 src/callbacks.c:84 src/callbacks.c:369 src/callbacks.c:1316
+#, c-format
+msgid "Connected to %s (%s) - %d MB free"
+msgstr ""
+
+#: src/mtp.c:511
+msgid "Rescan: How did I get called?\n"
+msgstr ""
+
+#: src/mtp.c:652
+#, c-format
+msgid ""
+"Unable to add %s due to insufficient space: filesize = %llu, freespace = %"
+"llu\n"
+msgstr ""
+
+#: src/mtp.c:654
+msgid "Unable to add file due to insufficient space"
+msgstr ""
+
+#: src/mtp.c:659
+msgid "File Upload"
+msgstr ""
+
+#: src/mtp.c:720 src/mtp.c:730
+msgid "<Unknown>"
+msgstr ""
+
+#: src/mtp.c:749
+msgid "Error sending track.\n"
+msgstr ""
+
+#: src/mtp.c:750
+#, c-format
+msgid "Error code %d sending track to device: <b>%s</b>"
+msgstr ""
+
+#: src/mtp.c:797
+#, c-format
+msgid "Error sending file %s.\n"
+msgstr ""
+
+#: src/mtp.c:798
+msgid "Error sending file:"
+msgstr ""
+
+#: src/mtp.c:876
+#, c-format
+msgid ""
+"\n"
+"Failed to delete file %s\n"
+msgstr ""
+
+#: src/mtp.c:877
+msgid "Failed to delete file"
+msgstr ""
+
+#: src/mtp.c:899
+msgid "File download"
+msgstr ""
+
+#: src/mtp.c:904
+msgid ""
+"\n"
+"Error getting file from MTP device.\n"
+msgstr ""
+
+#: src/mtp.c:905
+msgid "Error getting file from MTP device."
+msgstr ""
+
+#: src/mtp.c:1014 src/mtp.c:1113
+#, c-format
+msgid "Folder creation failed: %s\n"
+msgstr ""
+
+#: src/mtp.c:1015 src/mtp.c:1114
+msgid "Folder creation failed:"
+msgstr ""
+
+#: src/mtp.c:1068
+#, c-format
+msgid "Couldn't delete folder %s (%x)\n"
+msgstr ""
+
+#: src/mtp.c:1271
+#, c-format
+msgid "Error: Couldn't set device name to %s\n"
+msgstr ""
+
+#: src/mtp.c:1277
+msgid "setDeviceName: How did I get called?\n"
+msgstr ""
+
+#: src/mtp.c:1356
+msgid "ERROR: Failed memory allocation in albumAddTrackToAlbum()\n"
+msgstr ""
+
+#: src/mtp.c:1385 src/mtp.c:1386
+msgid ""
+"Error creating or updating album.\n"
+"(This could be due to that your device does not support albums.)\n"
+msgstr ""
+
+#: src/mtp.c:1419
+msgid "ERROR: Failed memory allocation in albumAddArt()\n"
+msgstr ""
+
+#: src/mtp.c:1424
+#, c-format
+msgid "Couldn't open image file %s\n"
+msgstr ""
+
+#: src/mtp.c:1439 src/mtp.c:1440
+msgid "Couldn't send album art\n"
+msgstr ""
+
+#: src/mtp.c:1492 src/mtp.c:1493
+msgid "Couldn't remove album art\n"
+msgstr ""
+
+#: src/mtp.c:1556 src/mtp.c:1674
+msgid "Couldn't create playlist object\n"
+msgstr ""
+
+#: src/mtp.c:1572
+msgid "Deleting playlist failed?\n"
+msgstr ""
+
+#: src/mtp.c:1587
+msgid "Updating playlist failed?\n"
+msgstr ""
+
+#: src/mtp.c:1620
+#, c-format
+msgid "Couldn't open playlist file %s\n"
+msgstr ""
+
+#: src/mtp.c:1621
+msgid "Couldn't open playlist file\n"
+msgstr ""
+
+#: src/mtp.c:1643
+msgid "realloc in playlistImport failed\n"
+msgstr ""
+
+#: src/mtp.c:1644
+msgid "Updating playlist failed? 'realloc in playlistImport'\n"
+msgstr ""
+
+#: src/mtp.c:1680
+msgid "Playlist imported.\n"
+msgstr ""
+
+#: src/mtp.c:1684 src/mtp.c:1685
+msgid ""
+"Found no tracks within the playlist that exist on this device. Did not "
+"import the playlist.\n"
+msgstr ""
+
+#: src/mtp.c:1717
+#, c-format
+msgid "Couldn't save playlist file %s\n"
+msgstr ""
+
+#: src/mtp.c:1718
+msgid "Couldn't save playlist file\n"
+msgstr ""
+
+#: src/mtp.c:1746
+msgid "Format Device failed?\n"
+msgstr ""
+
+#: src/mtp.c:2063 src/mtp.c:2119 src/mtp.c:2203
+msgid "malloc in filesSearch failed\n"
+msgstr ""
+
+#: src/mtp.c:2064 src/mtp.c:2120 src/mtp.c:2204
+msgid "Failed searching? 'malloc in filesSearch'\n"
+msgstr ""
+
+#: src/mtp.c:2280
+msgid "malloc in foldersearch failed\n"
+msgstr ""
+
+#: src/mtp.c:2281
+msgid "Failed searching? 'malloc in foldersearch'\n"
+msgstr ""
+
+#: src/callbacks.c:199 src/callbacks.c:253 src/callbacks.c:291
+#: src/callbacks.c:332 src/callbacks.c:885 src/callbacks.c:938
+#: src/callbacks.c:1012 src/callbacks.c:1050 src/callbacks.c:2012
+#: src/callbacks.c:2035
+msgid "No files/folders selected?"
+msgstr ""
+
+#: src/callbacks.c:216
+msgid "Unable to rename parent folder\n"
+msgstr ""
+
+#: src/callbacks.c:217
+msgid "Unable to rename this folder"
+msgstr ""
+
+#: src/callbacks.c:244
+msgid ""
+"The move function is disabled when using the alternate access method for "
+"your device."
+msgstr ""
+
+#: src/callbacks.c:305
+msgid "Are you sure you want to delete these files?"
+msgstr ""
+
+#: src/callbacks.c:306 src/callbacks.c:904 src/callbacks.c:1065
+msgid "Confirm Delete"
+msgstr ""
+
+#: src/callbacks.c:361
+msgid "Disconnect"
+msgstr ""
+
+#: src/callbacks.c:384
+msgid "Disconnect Device"
+msgstr ""
+
+#: src/callbacks.c:647
+msgid "Select Path to Download to"
+msgstr ""
+
+#: src/callbacks.c:682
+msgid "Select Path to Upload From"
+msgstr ""
+
+#: src/callbacks.c:903 src/callbacks.c:1064
+msgid "Are you sure you want to delete this folder (and all contents)?"
+msgstr ""
+
+#: src/callbacks.c:1118
+msgid "Are you sure you want to format this device?"
+msgstr ""
+
+#: src/callbacks.c:1247
+msgid "Please enter search item."
+msgstr ""
+
+#: src/callbacks.c:1248
+msgid "Search"
+msgstr ""
+
+#: src/callbacks.c:1356
+msgid "Searching..."
+msgstr ""
+
+#: src/callbacks.c:1412
+msgid "Select Album Art File"
+msgstr ""
+
+#: src/callbacks.c:1514
+msgid "Save Album Art File"
+msgstr ""
+
+#: src/callbacks.c:1536
+#, c-format
+msgid "Couldn't save image file %s\n"
+msgstr ""
+
+#: src/callbacks.c:1537
+msgid "Couldn't save image file\n"
+msgstr ""
+
+#: src/callbacks.c:1669
+msgid "Select Playlist to Import"
+msgstr ""
+
+#: src/callbacks.c:1719 src/callbacks.c:1720
+msgid "The playlist failed to import correctly.\n"
+msgstr ""
+
+#: src/callbacks.c:1756
+msgid "Save as..."
+msgstr ""
+
+#: src/prefs.c:117
+msgid ""
+"WARNING: gconf schema invalid, reverting to defaults. Please ensure schema "
+"is loaded in gconf database.\n"
+msgstr ""
+
+#: src/prefs.c:221
+msgid ""
+"WARNING: gconf schema invalid, unable to save! Please ensure schema is "
+"loaded in gconf database.\n"
+msgstr ""
+
+#: src/prefs.c:425 src/prefs.c:615
+msgid "Disconnected device due to access method change"
+msgstr ""
+
+#: src/prefs.c:441
+msgid ""
+"WARNING: gconf_callback_func() failed - we got a callback for a key thats "
+"not ours?\n"
+msgstr ""
+
+#: src/prefs.c:625
+msgid ""
+"WARNING: gsettings_callback_func() failed - we got a callback for a key "
+"thats not ours?\n"
+msgstr ""
+
+domain "gmtp"
+
+#, fuzzy
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: gmtp 1.3.5\n"
+#~ "Report-Msgid-Bugs-To: chewy509@mailcity.com\n"
+#~ "POT-Creation-Date: 2013-12-06 21:51+1000\n"
+#~ "PO-Revision-Date: 2013-12-04 20:20+1000\n"
+#~ "Last-Translator: Cai Andersen\n"
+#~ "Language-Team: chewy509@mailcity.com\n"
+#~ "Language: it\n"
+#~ "MIME-Version: 1.0\n"
+#~ "Content-Type: text/plain; charset=UTF-8\n"
+#~ "Content-Transfer-Encoding: 8bit\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Error getting file from MTP device.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Errore durante il recupero di file da un dispositivo  MTP.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Failed to delete file %s\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Impossibile eliminare il file %s\n"
+
+#~ msgid "   %s %s : (%04x:%04x) @ bus %d, dev %d"
+#~ msgstr "   %s %s : (%04x:%04x) @ bus %d, dev %d"
+
+#~ msgid " : %d MB (free) / %d MB (total)"
+#~ msgstr " : %d MB (libero) / %d MB (totale)"
+
+#~ msgid " Playlists"
+#~ msgstr " Playlist"
+
+#~ msgid " Preferences"
+#~ msgstr " Preferenze"
+
+#~ msgid " Properties"
+#~ msgstr " Propriet"
+
+#~ msgid "%d MB (free) / %d MB (total)"
+#~ msgstr "%d MB (libero) / %d MB (totale)"
+
+#~ msgid "%s of %s (%d%%)"
+#~ msgstr "%s di %s (%d%%)"
+
+#~ msgid "%s - %s of %s (%d%%)"
+#~ msgstr "%s - %s di %s (%d%%)"
+
+#~ msgid "<Unknown>"
+#~ msgstr "<Sconosciuto>"
+
+#~ msgid "<b><big>"
+#~ msgstr "<b><big>"
+
+#~ msgid "<b>Battery Level:</b>"
+#~ msgstr "<b>Livello della batteria:</b>"
+
+#~ msgid "<b>Bus Location:</b>"
+#~ msgstr "<b>Posizione del bus:</b>"
+
+#~ msgid "<b>Device Number:</b>"
+#~ msgstr "<b>Numero del dispositivo:</b>"
+
+#~ msgid "<b>Device Version:</b>"
+#~ msgstr "<b>Versione del dispositivo:</b>"
+
+#~ msgid "<b>Device</b>"
+#~ msgstr "<b>Dispositivo</b>"
+
+#~ msgid "<b>File Operations</b>"
+#~ msgstr "<b>Operazioni su file</b>"
+
+#~ msgid "<b>Filepaths on PC</b>"
+#~ msgstr "<b>Percorsi del file su PC</b>"
+
+#~ msgid "<b>MTP Device Properties</b>"
+#~ msgstr "<b>Propriet del dispositivo MTP</b>"
+
+#~ msgid "<b>Manufacturer:</b>"
+#~ msgstr "<b>Produttore:</b>"
+
+#~ msgid "<b>Model Number:</b>"
+#~ msgstr "<b>Numero del modello:</b>"
+
+#~ msgid "<b>Name:</b>"
+#~ msgstr "<b>Nome:</b>"
+
+#~ msgid "<b>Product ID:</b>"
+#~ msgstr "<b>ID del prodotto:</b>"
+
+#~ msgid "<b>Product:</b>"
+#~ msgstr "<b>Prodotto:</b>"
+
+#~ msgid "<b>Raw Device Information</b>"
+#~ msgstr "<b>Informazioni sui dispositivi raw</b>"
+
+#~ msgid "<b>Secure Time:</b>"
+#~ msgstr "<b>Sicuro Tempo:</b>"
+
+#~ msgid "<b>Serial Number:</b>"
+#~ msgstr "<b>Numero di serie:</b>"
+
+#~ msgid "<b>Storage:</b>"
+#~ msgstr "<b>Memorizzazione:</b>"
+
+#~ msgid "<b>Supported Formats:</b>"
+#~ msgstr "<b>Formati supportati:</b>"
+
+#~ msgid "<b>Sync Partner:</b>"
+#~ msgstr "<b>Sincronizzazione partner:</b>"
+
+#~ msgid "<b>Vendor ID:</b>"
+#~ msgstr "<b>ID venditore:</b>"
+
+#~ msgid "<b>Vendor:</b>"
+#~ msgstr "<b>Venditore:</b>"
+
+#~ msgid ""
+#~ "<small>Copyright 2009-2011, Darran Kartaschew</small>\n"
+#~ "<small>Released under the BSD Licence</small>\n"
+#~ msgstr ""
+#~ "<small>Copyright 2009-2011, Darran Kartaschew</small>\n"
+#~ "<small>Rilasciato sotto BSD Licence</small>\n"
+
+#~ msgid ""
+#~ "A simple MTP Client for Solaris 10\n"
+#~ "and other UNIX / UNIX-like systems\n"
+#~ msgstr ""
+#~ "Un semplice client MP3 per Solaris 10\n"
+#~ "e altri sistemi UNIX / UNIX simile\n"
+
+#~ msgid "About gMTP"
+#~ msgstr "Informazioni su gMTP"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Add Album Art"
+#~ msgstr "Aggiungi Album Art"
+
+#~ msgid "Add File"
+#~ msgstr "Aggiungi file"
+
+#~ msgid "Add Files"
+#~ msgstr "Aggiungi file"
+
+#~ msgid "Add Files to your device."
+#~ msgstr "Aggiungi file al dispositivo."
+
+#~ msgid "Add New Playlist"
+#~ msgstr "Aggiungi nuova playlist"
+
+#~ msgid "Add a varity of Files to your device in the current folder."
+#~ msgstr ""
+#~ "Aggiungere una variet di file sul dispositivo nella cartella corrente"
+
+#~ msgid "Add and Modify Playlists."
+#~ msgstr "Aggiungere e modificare playlist."
+
+#~ msgid "Add file to playlist"
+#~ msgstr "Aggiungere file alla playlist"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Album Art"
+#~ msgstr "Album Art"
+
+#~ msgid "Album:"
+#~ msgstr "Album:"
+
+#~ msgid "Always show Download Path?"
+#~ msgstr "Mostra sempre il percorso di download?"
+
+#~ msgid "Are you sure you want to delete these files?"
+#~ msgstr "Sei sicuro di voler eliminare questi file?"
+
+#~ msgid "Are you sure you want to delete this folder (and all contents)?"
+#~ msgstr ""
+#~ "Sei sicuro di voler eliminare questa cartella (e tutti i contenuti)?"
+
+#~ msgid "Artist"
+#~ msgstr "Artista"
+
+#~ msgid "Attempt to connect to Device on startup"
+#~ msgstr "Tentativo di connessione a periferica all'avvio"
+
+#~ msgid "Change Device Name"
+#~ msgstr "Cambia nome dispositivo"
+
+#~ msgid "Confirm Delete"
+#~ msgstr "Conferma eliminazione"
+
+#~ msgid "Confirm File/Folder Delete"
+#~ msgstr "Conferma eliminazione file / cartella"
+
+#~ msgid "Connect"
+#~ msgstr "Collegare"
+
+#~ msgid "Connect Device"
+#~ msgstr "Collegare il dispositivo"
+
+#~ msgid "Connect to which device?"
+#~ msgstr "A quale dispositivo ci si desidera collegare?"
+
+#~ msgid "Connect to which storage device?"
+#~ msgstr "A quale periferica di archiviazione ci si desidera collegare?"
+
+#~ msgid "Connect/Disconnect to your device."
+#~ msgstr "Connettersi / disconnettersi al dispositivo."
+
+#~ msgid "Connected to %s (%s) - %d MB free"
+#~ msgstr "Connesso a %s (%s) - %d MB di spazio libero"
+
+#~ msgid "Connected to %s - %d MB free"
+#~ msgstr "Connesso a %s - %d MB di spazio libero"
+
+#~ msgid "Couldn't create playlist object\n"
+#~ msgstr "Impossibile creare l'oggetto playlist\n"
+
+#~ msgid "Couldn't delete folder %s (%x)\n"
+#~ msgstr "Impossibile eliminare cartella %s (%x)\n"
+
+#~ msgid "Couldn't open image file %s\n"
+#~ msgstr "Impossibile aprire il file immagine %s\n"
+
+#~ msgid "Couldn't send album art\n"
+#~ msgstr "Impossibile inviare le copertine degli album\n"
+
+#~ msgid "Create Folder"
+#~ msgstr "Crea cartella"
+
+#~ msgid "Current Playlist: "
+#~ msgstr "Playlist attuale: "
+
+#~ msgid "Del"
+#~ msgstr "Elimina"
+
+#~ msgid "Del File"
+#~ msgstr "Elimina file"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Delete Files"
+#~ msgstr "Elimina file"
+
+#~ msgid "Delete Files/Folders from your device."
+#~ msgstr "Eliminare i file / cartelle dal dispositivo."
+
+#~ msgid "Delete Folder"
+#~ msgstr "Elimina cartella"
+
+#~ msgid "Deleting playlist failed?\n"
+#~ msgstr "Eliminazione della playlist fallita?\n"
+
+#~ msgid "Detect: Encountered a Memory Allocation Error. \n"
+#~ msgstr "Detect:  stato rilevato un errore di allocazione della memoria.\n"
+
+#~ msgid "Detect: No raw devices found.\n"
+#~ msgstr "Detect: Nessun dispositivo raw trovato.\n"
+
+#~ msgid "Detect: There has been an error connecting. \n"
+#~ msgstr "Detect: C' stato un errore di connessione.\n"
+
+#~ msgid "Detect: Unable to open raw device?\n"
+#~ msgstr "Detect: impossibile aprire il dispositivo raw?\n"
+
+#~ msgid "Device Audio Tracks"
+#~ msgstr "Tracce audio del dispositivo"
+
+#~ msgid "Device Name:"
+#~ msgstr "Nome del dispositivo:"
+
+#~ msgid "Device Properties"
+#~ msgstr "Propriet del dispositivo"
+
+#~ msgid "Device:"
+#~ msgstr "Dispositivo:"
+
+#~ msgid "DevicePropeties: How did I get called?\n"
+#~ msgstr "DevicePropeties: Come ho chiamato?\n"
+
+#~ msgid "Disconnect"
+#~ msgstr "Scollegare"
+
+#~ msgid "Disconnect Device"
+#~ msgstr "Disconnettere il dispositivo"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Download Files"
+#~ msgstr "Download dei file"
+
+#~ msgid "Download Files from your device to your Host PC."
+#~ msgstr "Download di file dal dispositivo al PC host."
+
+#~ msgid "Download Path:"
+#~ msgstr "Percorso del download:"
+
+#~ msgid ""
+#~ "Download files from your device to your PC. Default Download path is set "
+#~ "in the preferences dialog."
+#~ msgstr ""
+#~ "Scaricare file dal dispositivo al PC. Scarica percorso predefinito  "
+#~ "impostato nella finestra di dialogo prefernces."
+
+#~ msgid "Duration"
+#~ msgstr "Durata"
+
+#~ msgid "ERROR: Failed memory allocation in albumAddArt()\n"
+#~ msgstr "Allocazione di memoria non riuscita in albumAddArt(): ERRORE\n"
+
+#~ msgid "ERROR: Failed memory allocation in albumAddTrackToAlbum()\n"
+#~ msgstr ""
+#~ "Allocazione di memoria non riuscita in albumAddTrackToAlbum(): ERRORE\n"
+
+#~ msgid "Edit Playlist(s)"
+#~ msgstr "Modifica Playlist"
+
+#~ msgid "Error"
+#~ msgstr "Errore"
+
+#~ msgid "Error code %d sending track to device: <b>%s</b>"
+#~ msgstr "Errore codice %d brano inviare al dispositivo: <b>%s</b>"
+
+#~ msgid ""
+#~ "Error creating or updating album.\n"
+#~ "(This could be due to that your device does not support albums.)\n"
+#~ msgstr ""
+#~ "Errore durante la creazione o l'aggiornamento di album.\n"
+#~ "(Ci potrebbe essere dovuto al fatto che il dispositivo non supporta "
+#~ "album.)\n"
+
+#~ msgid "Error getting file from MTP device."
+#~ msgstr "Errore durante il recupero di file da un dispositivo MTP."
+
+#~ msgid "Error sending file %s.\n"
+#~ msgstr "Errore durante l'invio del file %s.\n"
+
+#~ msgid "Error sending file:"
+#~ msgstr "Errore nell'invio del file:"
+
+#~ msgid "Error sending track.\n"
+#~ msgstr "Errore durante l'invio traccia.\n"
+
+#~ msgid "Error: Couldn't set device name to %s\n"
+#~ msgstr "Errore: Impossibile impostare il nome del dispositivo per %s\n"
+
+#~ msgid "Failed to delete file"
+#~ msgstr "Impossibile eliminare il file"
+
+#~ msgid ""
+#~ "File <b>%s</b> already exists in target folder.\n"
+#~ "Do you want to:"
+#~ msgstr ""
+#~ "File <b>%s</b>  gi presente nella cartella di destinazione.\n"
+#~ "Vuoi:"
+
+#~ msgid "File Upload"
+#~ msgstr "Carica file"
+
+#~ msgid "File download"
+#~ msgstr "Scarica file"
+
+#~ msgid "FileSize Hidden"
+#~ msgstr "Dimensione del file nascosta"
+
+#~ msgid "Filename"
+#~ msgstr "Nome del file"
+
+#~ msgid "Filename:"
+#~ msgstr "Nome del file:"
+
+#~ msgid "Folder Name:"
+#~ msgstr "Nome cartella:"
+
+#~ msgid "Folder creation failed:"
+#~ msgstr "Creazione della cartella non riuscita:"
+
+#~ msgid "Folder creation failed: %s\n"
+#~ msgstr "Creazione della cartella non riuscita: %s\n"
+
+#~ msgid "I don't know how to delete a parent folder reference?\n"
+#~ msgstr "Non so come eliminare il collegamento alla cartella superiore?\n"
+
+#~ msgid "Information"
+#~ msgstr "Informazioni"
+
+#~ msgid "Move selected file down in the playlist"
+#~ msgstr "Spostare file selezionato dalla playlist"
+
+#~ msgid "Move selected file up in the playlist"
+#~ msgstr "Spostare file selezionato in playlist"
+
+#~ msgid "N/A"
+#~ msgstr "Non applicabile"
+
+#~ msgid "New Folder"
+#~ msgstr "Nuova Cartella"
+
+#~ msgid "New Playlist"
+#~ msgstr "Nuova Playlist"
+
+#~ msgid ""
+#~ "No Albums available to set Album Art with. Either:\n"
+#~ "1. You have no music files uploaded?\n"
+#~ "2. Your device does not support Albums?\n"
+#~ "3. Previous applications used to upload files do not autocreate albums "
+#~ "for you or support the metadata for those files in order to create the "
+#~ "albums for you?\n"
+#~ msgstr ""
+#~ "Nessun album disponibile per impostare Album Art. O:\n"
+#~ "1. Non hai i file musicali caricati?\n"
+#~ "2. Il dispositivo non supporta Album?\n"
+#~ "3. Domande precedenti utilizzato per caricare i file non autocreate album "
+#~ "per voi o il supporto di metadati  per i  file in modo da creare degli "
+#~ "album  per voi?\n"
+
+#~ msgid "No device attached"
+#~ msgstr "Nessun dispositivo collegato"
+
+#~ msgid "No files/folders selected?"
+#~ msgstr "Nessun file / cartella selezionati?"
+
+#~ msgid "Num"
+#~ msgstr "Numero"
+
+#~ msgid "Object ID"
+#~ msgstr "Object ID"
+
+#~ msgid "Overwrite"
+#~ msgstr "Sovrascrivi"
+
+#~ msgid "Overwrite All"
+#~ msgstr "Sovrascrivi tutti"
+
+#~ msgid ""
+#~ "Permanently remove files/folders from your device. Note: Albums are "
+#~ "stored as *.alb files."
+#~ msgstr ""
+#~ "Rimuovere in modo permanente i file / cartelle dal dispositivo. Nota: gli "
+#~ "album sono archiviati come file *. alb."
+
+#~ msgid "Playlist Audio Tracks"
+#~ msgstr "Tracce audio Playlist"
+
+#~ msgid "Playlist Name:"
+#~ msgstr "Nome della playlist:"
+
+#~ msgid "Playlists"
+#~ msgstr "Playlist"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferenze"
+
+#~ msgid "Prompt if to Overwrite file if already exists"
+#~ msgstr "Avviso se sovrascrivere il file se esiste gi"
+
+#~ msgid "Properties"
+#~ msgstr "Propriet"
+
+#~ msgid "Question: Confirm Overwrite of Existing File?"
+#~ msgstr "Domanda: Conferma la sovrascrittura di file esistente?"
+
+#~ msgid "Quit"
+#~ msgstr "Esci"
+
+#~ msgid "Quit gMTP."
+#~ msgstr "Esci gMTP."
+
+#~ msgid "Refresh"
+#~ msgstr "Aggiorna"
+
+#~ msgid "Refresh Device"
+#~ msgstr "Aggiorna dispositivo"
+
+#~ msgid "Refresh File/Folder listing."
+#~ msgstr "Aggiorna file / elenco di cartelle."
+
+#~ msgid "Remove Current Selected Playlist"
+#~ msgstr "Rimuovere la playlist selezionata"
+
+#~ msgid "Remove file from playlist"
+#~ msgstr "Rimuovere file dalla playlist"
+
+#~ msgid "Rescan: How did I get called?\n"
+#~ msgstr "Rescan: Come ho chiamato?\n"
+
+#~ msgid "Select Album Art File"
+#~ msgstr "Seleziona file Album Art "
+
+#~ msgid "Select Files to Add"
+#~ msgstr "Seleziona i file da aggiungere"
+
+#~ msgid "Select Path to Download"
+#~ msgstr "Selezione del percorso per il download"
+
+#~ msgid "Select Path to Download to"
+#~ msgstr "Selezione del percorso da cui scaricare"
+
+#~ msgid "Select Path to Upload From"
+#~ msgstr "Selezione del percorso da cui caricare le foto"
+
+#~ msgid "Size"
+#~ msgstr "Dimensioni"
+
+#~ msgid "Skip"
+#~ msgstr "Salta"
+
+#~ msgid "Skip All"
+#~ msgstr "Salta tutto"
+
+#~ msgid "Storage Device:"
+#~ msgstr "Dispositivo di memorizzazione:"
+
+#~ msgid "Track"
+#~ msgstr "Traccia"
+
+#~ msgid ""
+#~ "Unable to add %s due to insufficient space: filesize = %lu, freespace = %"
+#~ "lu\n"
+#~ msgstr ""
+#~ "Impossibile aggiungere %s a causa di spazio insufficiente: dimensione del "
+#~ "file = &lu, spazio libero = %lu\n"
+
+#~ msgid "Unable to add file due to insufficient space"
+#~ msgstr "Impossibile aggiungere file a causa di spazio insufficiente"
+
+#~ msgid "Unknown"
+#~ msgstr "Sconosciuto"
+
+#~ msgid "Unknown : %04x:%04x @ bus %d, dev %d"
+#~ msgstr "Sconosciuto : %04x:%04x @ bus %d, dev %d"
+
+#~ msgid "Unknown id: %d, %lu MB"
+#~ msgstr "Sconosciuto id: %d, %lu MB"
+
+#~ msgid "Updating playlist failed?\n"
+#~ msgstr "Aggiornamento della playlist fallito?\n"
+
+#~ msgid "Updating playlist failed? 'realloc in savePlayList'\n"
+#~ msgstr "Aggiornamento della playlist fallito? 'realloc in savePlayList'\n"
+
+#~ msgid "Upload Path:"
+#~ msgstr "Percorso di upload:"
+
+#~ msgid "Upload a JPG file and assign it as Album Art."
+#~ msgstr "Carica un file JPG e assegnalo come Album Art."
+
+#~ msgid "Upload an image file as Album Art."
+#~ msgstr "Carica un file immagine come Album Art."
+
+#~ msgid "View Device Properties."
+#~ msgstr "Visualizza le propriet del dispositivo."
+
+#~ msgid "View/Change gMTP Preferences."
+#~ msgstr "Visualizza / Cambia preferenze gMTP."
+
+#~ msgid ""
+#~ "WARNING: gconf schema invalid, reverting to defaults. Please ensure "
+#~ "schema is loaded in gconf database.\n"
+#~ msgstr ""
+#~ "ATTENZIONE: schema gconf non valido, tornare ai valori predefiniti. "
+#~ "Assicurarsi che lo schema venga caricato nel database di GConf.\n"
+
+#~ msgid ""
+#~ "WARNING: gconf schema invalid, unable to save! Please ensure schema is "
+#~ "loaded in gconf database.\n"
+#~ msgstr ""
+#~ "ATTENZIONE: lo schema gconf non  valido e non  possibile salvare! "
+#~ "Assicurarsi che lo schema venga caricato nel database di GConf.\n"
+
+#~ msgid ""
+#~ "WARNING: gconf_callback_func() failed - we got a callback for a key thats "
+#~ "not ours?\n"
+#~ msgstr ""
+#~ "ATTENZIONE: gconf_callback_func() non riuscito: abbiamo avuto una "
+#~ "chiamata per una chiave che non  la nostra?\n"
+
+#~ msgid "_About"
+#~ msgstr "_Informazioni"
+
+#~ msgid "_Edit"
+#~ msgstr "_Modifica"
+
+#~ msgid "_File"
+#~ msgstr "_File"
+
+#~ msgid "_Help"
+#~ msgstr "_Aiuto"
+
+#~ msgid "file = ( x / x ) x %"
+#~ msgstr "file = ( x / x ) x %"
+
+#~ msgid "file://"
+#~ msgstr "file://"
+
+#~ msgid "realloc in savePlayList failed\n"
+#~ msgstr "realloc in savePlayList fallito\n"
+
+#~ msgid "setDeviceName: How did I get called?\n"
+#~ msgstr "setDeviceName: Come ho chiamato?\n"
+
+#~ msgid "File Type"
+#~ msgstr "Tipo di file"
+
+#~ msgid "Track Name"
+#~ msgstr "Nome traccia"
+
+#~ msgid "Year"
+#~ msgstr "Anno"
+
+#~ msgid "_View"
+#~ msgstr "_Visualizza"
+
+#~ msgid "File Size"
+#~ msgstr "Dimensione file"
+
+#~ msgid "Track Number"
+#~ msgstr "Numero traccia"
+
+#~ msgid "Genre"
+#~ msgstr "Genere"
+
+# ##########################################
+#~ msgid "Save Album Art File"
+#~ msgstr "Salva Art File Album"
+
+#~ msgid "Couldn't save image file %s\n"
+#~ msgstr "Impossibile salvare il file immagine %s\n"
+
+#~ msgid "Couldn't save image file\n"
+#~ msgstr "Impossibile salvare il file immagine\n"
+
+#~ msgid ""
+#~ "Failed to get storage parameters from the device - need to disconnect."
+#~ msgstr ""
+#~ "Impossibile ottenere i parametri di memoria dal dispositivo - hanno "
+#~ "bisogno di staccare."
+
+#~ msgid "Couldn't remove album art\n"
+#~ msgstr "Impossibile rimuovere le copertine degli album\n"
+
+#~ msgid "Rename File"
+#~ msgstr "Rinominare file"
+
+#~ msgid "Rename File/Folder"
+#~ msgstr "Rinominare file / cartella"
+
+#~ msgid "File Name:"
+#~ msgstr "Nome del file:"
+
+#~ msgid "Upload"
+#~ msgstr "Caricare"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovere"
+
+#~ msgid "Format Device"
+#~ msgstr "Formato del dispositivo"
+
+#~ msgid "Are you sure you want to format this device?"
+#~ msgstr "Sei sicuro che si desidera formattare questo dispositivo?"
+
+#~ msgid "Format Device failed?\n"
+#~ msgstr "Dispositivo formato fallito?\n"
+
+#~ msgid "Prompt to add New Music track to existing playlist"
+#~ msgstr ""
+#~ "Richiesta di aggiungere Nuovo brano musicale alla Playlist esistente"
+
+# ##########################################################
+#~ msgid "Import Playlist"
+#~ msgstr "Importa Playlist"
+
+#~ msgid "Export Playlist"
+#~ msgstr "Esportazione playlist"
+
+#~ msgid "Select Playlist to Import"
+#~ msgstr "Selezionare playlist da importare"
+
+#~ msgid "The playlist failed to import correctly.\n"
+#~ msgstr "La playlist non  riuscito a importare correttamente.\n"
+
+#~ msgid "Ignore path information when importing playlist"
+#~ msgstr "Ignora informazioni sul percorso durante l'importazione di playlist"
+
+#~ msgid "<b>Playlist</b>"
+#~ msgstr "<b>Playlist</b>"
+
+#~ msgid "Couldn't save playlist file\n"
+#~ msgstr "Impossibile salvare il file playlist\n"
+
+#~ msgid "Couldn't save playlist file %s\n"
+#~ msgstr "Impossibile salvare il file playlist %s\n"
+
+#~ msgid "Couldn't open playlist file\n"
+#~ msgstr "Impossibile aprire il file playlist\n"
+
+#~ msgid "Couldn't open playlist file %s\n"
+#~ msgstr "Impossibile aprire il file playlist %s\n"
+
+#~ msgid ""
+#~ "Found no tracks within the playlist that exist on this device. Did not "
+#~ "import the playlist.\n"
+#~ msgstr ""
+#~ "Non ha trovato i brani presenti su questo dispositivo. Non importare la "
+#~ "playlist.\n"
+
+#~ msgid "Playlist imported.\n"
+#~ msgstr "Playlist importati.\n"
+
+# ##########################################################
+#~ msgid "Find:"
+#~ msgstr "Cerca:"
+
+#~ msgid "Filenames"
+#~ msgstr "I nomi dei file"
+
+#~ msgid "Track Information"
+#~ msgstr "Musica Informazioni"
+
+#~ msgid "Please enter search item."
+#~ msgstr "Inserisci voce di ricerca."
+
+#~ msgid "Search"
+#~ msgstr "ricerca"
+
+#~ msgid "Location"
+#~ msgstr "Posizione"
+
+#~ msgid "Found %d items"
+#~ msgstr "Trovati %d articoli"
+
+#~ msgid "Found %d item"
+#~ msgstr "Trovati %d punto"
+
+#~ msgid "Searching..."
+#~ msgstr "ricerca..."
+
+#~ msgid "Add To Playlist"
+#~ msgstr "Aggiungi a playlist"
+
+#~ msgid "Remove From Playlist"
+#~ msgstr "Rimuovi dalla playlist"
+
+#~ msgid "Columns"
+#~ msgstr "Colonne"
+
+# ##########################################################
+#~ msgid "Folders"
+#~ msgstr "Cartelle"
+
+#~ msgid "Folder"
+#~ msgstr "Cartella"
+
+#~ msgid "Rename Folder"
+#~ msgstr "Rinomina cartella"
+
+#~ msgid "Move To..."
+#~ msgstr "Sposta"
+
+#~ msgid "Unable to move the selected folder underneath itself?\n"
+#~ msgstr "Impossibile spostare la cartella selezionata sotto di s?\n"
+
+#~ msgid "Unable to move the selected folder into itself?\n"
+#~ msgstr "Impossibile spostare la cartella selezionata in se stesso?\n"
+
+#~ msgid "Unable to move the selected file?\n"
+#~ msgstr "Impossibile spostare il file selezionato?\n"
+
+#~ msgid "Unable to move the selected folder?\n"
+#~ msgstr "Impossibile spostare la cartella selezionata?\n"
+
+#~ msgid "translator-credits"
+#~ msgstr "Francesca Ciceri"
+
+#~ msgid "Select All"
+#~ msgstr "Seleziona tutto"
+
+# ##########################################################
+#~ msgid "I don't know how to download a parent folder reference?\n"
+#~ msgstr "Non so come scaricare un riferimento cartella principale?\n"
+
+#~ msgid "Suppress Album Errors"
+#~ msgstr "Eliminare gli errori Album"
+
+#~ msgid "Detect: No available Storage found on device?\n"
+#~ msgstr "Rileva: No Deposito trovato disponibile sul dispositivo?\n"
+
+#~ msgid "Utilize alternate access method"
+#~ msgstr "Utilizzare il metodo di accesso alternativo"
+
+#~ msgid "Disconnected device due to access method change"
+#~ msgstr "Dispositivo disconnesso a causa dell'accesso cambiamento metodo"
+
+#~ msgid ""
+#~ "The move function is disabled when using the alternate access method for "
+#~ "your device."
+#~ msgstr ""
+#~ "La funzione di spostamento  disabilitata quando si utilizza il metodo di "
+#~ "accesso alternativo per il dispositivo."
+
+# ##########################################################
+#~ msgid "Treat all media as regular files"
+#~ msgstr "Trattare tutti i file multimediali come file normali"

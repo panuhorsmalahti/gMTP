@@ -1,0 +1,1213 @@
+# gmtp Language POT file.
+# Copyright (C) 2103 Darran Kartaschew
+# This file is distributed under the same license as the gmtp package.
+# Darran Kartaschew, 2013, chewy509@mailcity.com.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gmtp 1.3.6\n"
+"Report-Msgid-Bugs-To: chewy509@mailcity.com\n"
+"POT-Creation-Date: 2014-03-11 19:47+1000\n"
+"PO-Revision-Date: 2014-01-17 12:44+1000\n"
+"Last-Translator: \n"
+"Language-Team: chewy509@mailcity.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: src/about.c:77 src/about.c:150
+msgid ""
+"A simple MTP Client for Solaris 10\n"
+"and other UNIX / UNIX-like systems\n"
+msgstr ""
+"En simpel MTP Client til Solaris 10\n"
+"og andre UNIX / UNIX-lignende systemer\n"
+
+#: src/about.c:108
+msgid "translator-credits"
+msgstr "Cai Andersen"
+
+#: src/about.c:116
+msgid "About gMTP"
+msgstr "Om gMTP"
+
+#: src/about.c:118 src/albumart.c:78 src/preferences.c:427
+#: src/properties.c:603
+msgid "_Close"
+msgstr "_Luk"
+
+#: src/about.c:162
+msgid ""
+"<small>Copyright 2009-2014, Darran Kartaschew</small>\n"
+"<small>Released under the BSD License</small>"
+msgstr ""
+"<small>Copyright 2009-2014, Darran Kartaschew</small>\n"
+"<small>Udgivet under BSD Licence</small>"
+
+#: src/albumart.c:76 src/interface.c:346 src/interface.c:546
+msgid "Album Art"
+msgstr "Albumcover"
+
+#: src/albumart.c:106
+msgid "Album:"
+msgstr "Album:"
+
+#: src/albumart.c:124
+msgid ""
+"No Albums available to set Album Art with. Either:\n"
+"1. You have no music files uploaded?\n"
+"2. Your device does not support Albums?\n"
+"3. Previous applications used to upload files do not autocreate albums for "
+"you or support the metadata for those files in order to create the albums "
+"for you?\n"
+msgstr ""
+"Ingen Albums rådighed for at indstille Album Art med. Enten:\n"
+"1. Du har ingen musikfiler uploadet?\n"
+"2. Enheden understøtter ikke albums?\n"
+"3. Tidligere programmer, der bruges til at uploade filer ikke autocreate "
+"album for dig eller støtter metadata for disse filer for at skabe  album "
+"for  dig?\n"
+
+#: src/albumart.c:175
+msgid "Upload"
+msgstr "Upload"
+
+#: src/albumart.c:179
+msgid "Remove"
+msgstr "Fjern"
+
+#: src/albumart.c:184 src/interface.c:526
+msgid "Download"
+msgstr "Download"
+
+#: src/albumart.c:321
+msgid "Select Album Art File"
+msgstr "Vælg albumcover fil"
+
+#: src/albumart.c:323 src/albumart.c:425 src/callbacks.c:415
+#: src/interface.c:1422 src/interface.c:1973 src/interface.c:2015
+#: src/interface.c:2513 src/interface.c:2573 src/interface.c:2636
+#: src/interface.c:3163 src/interface.c:3360 src/playlist.c:953
+#: src/playlist.c:1386 src/playlist.c:1473 src/preferences.c:727
+#: src/preferences.c:762 src/progress.c:128
+msgid "_Cancel"
+msgstr "_Annullér"
+
+#: src/albumart.c:324 src/callbacks.c:416 src/interface.c:1423
+#: src/interface.c:1974 src/interface.c:2016 src/playlist.c:1387
+#: src/playlist.c:1474 src/preferences.c:728 src/preferences.c:763
+msgid "_Open"
+msgstr "_Åbn"
+
+#: src/albumart.c:423
+msgid "Save Album Art File"
+msgstr "Gem Album Art fil"
+
+#: src/albumart.c:426
+msgid "_Save"
+msgstr "_Gem"
+
+#: src/albumart.c:445
+#, c-format
+msgid "Couldn't save image file %s\n"
+msgstr "Kunne ikke gemme billedfil %s\n"
+
+#: src/albumart.c:446
+msgid "Couldn't save image file\n"
+msgstr "Kunne ikke gemme billedfil\n"
+
+#: src/callbacks.c:114 src/dnd.c:72 src/dnd.c:137
+msgid "File Upload"
+msgstr "Fil Upload"
+
+#: src/callbacks.c:156 src/callbacks.c:210 src/callbacks.c:248
+#: src/callbacks.c:291 src/callbacks.c:565 src/callbacks.c:618
+#: src/callbacks.c:692 src/callbacks.c:730 src/playlist.c:510
+#: src/playlist.c:533
+msgid "No files/folders selected?"
+msgstr "Ingen filer / mapper valgt?"
+
+#: src/callbacks.c:173
+msgid "Unable to rename parent folder\n"
+msgstr "Ude af stand til at flytte den valgte mappe?\n"
+
+#: src/callbacks.c:174
+msgid "Unable to rename this folder"
+msgstr "Ude af stand til at flytte den valgte mappe?"
+
+#: src/callbacks.c:201
+msgid ""
+"The move function is disabled when using the alternate access method for "
+"your device."
+msgstr ""
+"Flytningen er deaktiveret, når du bruger den alternative adgang for enheden."
+
+#: src/callbacks.c:262
+msgid "Are you sure you want to delete these files?"
+msgstr "Er du sikker på du vil slette disse filer?"
+
+#: src/callbacks.c:263 src/callbacks.c:584 src/callbacks.c:745
+msgid "Confirm Delete"
+msgstr "Bekræft sletning"
+
+#: src/callbacks.c:287 src/callbacks.c:297 src/callbacks.c:409
+#: src/callbacks.c:425 src/callbacks.c:432 src/interface.c:2026
+#: src/interface.c:2034
+msgid "File download"
+msgstr "Fil download"
+
+#: src/callbacks.c:322
+msgid "Disconnect"
+msgstr "Afbryd"
+
+#: src/callbacks.c:326 src/callbacks.c:335 src/callbacks.c:926
+#: src/callbacks.c:934 src/mtp.c:497 src/mtp.c:505 src/properties.c:700
+#: src/properties.c:709
+#, c-format
+msgid "Connected to %s - %d MB free"
+msgstr "Forbundet til %s - %d MB fri"
+
+#: src/callbacks.c:330 src/callbacks.c:930 src/mtp.c:501 src/properties.c:704
+#, c-format
+msgid "Connected to %s (%s) - %d MB free"
+msgstr "Forbundet til %s (%s) - %d MB fri"
+
+#: src/callbacks.c:345
+msgid "Disconnect Device"
+msgstr "Afbryd enhed"
+
+#: src/callbacks.c:354 src/interface.c:478
+msgid "Connect"
+msgstr "Tilslut"
+
+#: src/callbacks.c:357 src/main.c:124
+msgid "No device attached"
+msgstr "Ingen tilsluttede enhed"
+
+#: src/callbacks.c:361
+msgid "Connect Device"
+msgstr "Tilslut enheden"
+
+#: src/callbacks.c:413 src/interface.c:1971 src/interface.c:2013
+msgid "Select Path to Download"
+msgstr "Vælg sti til Download"
+
+#: src/callbacks.c:583 src/callbacks.c:744
+msgid "Are you sure you want to delete this folder (and all contents)?"
+msgstr "Er du sikker på du vil slette denne mappe (og hele indholdet)?"
+
+#: src/callbacks.c:639 src/callbacks.c:640 src/interface.c:2149
+#: src/interface.c:2150
+msgid "Unable to move the selected folder into itself?\n"
+msgstr "Kan ikke flytte den valgte mappe ind i sig selv?\n"
+
+#: src/callbacks.c:657 src/interface.c:2167
+msgid "Unable to move the selected folder?\n"
+msgstr "Ude af stand til at flytte den valgte mappe?\n"
+
+#: src/callbacks.c:663 src/callbacks.c:664 src/interface.c:2173
+#: src/interface.c:2174
+msgid "Unable to move the selected folder underneath itself?\n"
+msgstr "Kan ikke flytte den valgte mappe nedenunder sig selv?\n"
+
+#: src/callbacks.c:775 src/mtp.c:272 src/mtp.c:280 src/mtp.c:297 src/mtp.c:305
+#: src/mtp.c:313 src/mtp.c:321 src/mtp.c:334
+msgid "N/A"
+msgstr "ikke relevant"
+
+#: src/callbacks.c:861
+msgid "Please enter search item."
+msgstr "Indtast venligst søgeemnet."
+
+#: src/callbacks.c:862
+msgid "Search"
+msgstr "Søg"
+
+#: src/callbacks.c:970
+msgid "Searching..."
+msgstr "Søger ..."
+
+#: src/formatdevice.c:120
+msgid "Are you sure you want to format this device?"
+msgstr "Er du sikker på du vil formatere denne enhed?"
+
+#: src/formatdevice.c:121 src/interface.c:338
+msgid "Format Device"
+msgstr "Format enhed"
+
+#: src/interface.c:240
+msgid "_File"
+msgstr "_Fil"
+
+#: src/interface.c:247
+msgid "_Connect Device"
+msgstr "Tilslut enheden"
+
+#: src/interface.c:255 src/interface.c:2893
+msgid "Add Files"
+msgstr "Tilføj filer"
+
+#: src/interface.c:259 src/interface.c:2897
+msgid "Delete Files"
+msgstr "Slette filer"
+
+#: src/interface.c:263
+msgid "Rename Files"
+msgstr "Omdøb fil"
+
+#: src/interface.c:267 src/interface.c:2909 src/interface.c:3103
+#: src/interface.c:3357
+msgid "Move To..."
+msgstr "Flyt til"
+
+#: src/interface.c:271 src/interface.c:2901
+msgid "Download Files"
+msgstr "Download filer"
+
+#: src/interface.c:279 src/interface.c:2929 src/interface.c:3091
+msgid "Create Folder"
+msgstr "Opret mappe"
+
+#: src/interface.c:283 src/interface.c:2933 src/interface.c:3099
+msgid "Delete Folder"
+msgstr "Slet mappe"
+
+#: src/interface.c:291
+msgid "Refresh Folder"
+msgstr "Omdøb mappe"
+
+#: src/interface.c:297
+msgid "Device Properties"
+msgstr "Enhed Egenskaber"
+
+#: src/interface.c:307
+msgid "_Quit"
+msgstr "Afslut"
+
+#: src/interface.c:311
+msgid "_Edit"
+msgstr "_Rediger"
+
+#: src/interface.c:318
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: src/interface.c:326
+msgid "Find"
+msgstr "Find"
+
+#: src/interface.c:334 src/interface.c:2570
+msgid "Change Device Name"
+msgstr "Skift Enhedsnavn"
+
+#: src/interface.c:350
+msgid "Edit Playlist(s)"
+msgstr "Rediger afspilningsliste(r)"
+
+#: src/interface.c:358
+msgid "_Preferences"
+msgstr "Indstillinger"
+
+#: src/interface.c:362
+msgid "_View"
+msgstr "_Vis"
+
+#: src/interface.c:370
+msgid "Toolbar"
+msgstr ""
+
+#: src/interface.c:378
+msgid "Folders"
+msgstr "Folders"
+
+#: src/interface.c:386 src/interface.c:3001
+msgid "File Size"
+msgstr "Filstørrelse"
+
+#: src/interface.c:390 src/interface.c:1164 src/interface.c:1173
+#: src/interface.c:3005
+msgid "File Type"
+msgstr "Filtype"
+
+#: src/interface.c:394 src/interface.c:3009
+msgid "Track Number"
+msgstr "Spornummer"
+
+#: src/interface.c:398 src/interface.c:1209 src/interface.c:1218
+#: src/interface.c:3013
+msgid "Track Name"
+msgstr "Spor Navn"
+
+#: src/interface.c:402 src/interface.c:1228 src/interface.c:1237
+#: src/interface.c:3017 src/playlist.c:704 src/playlist.c:774
+msgid "Artist"
+msgstr "Kunstner"
+
+#: src/interface.c:406 src/interface.c:1247 src/interface.c:1256
+#: src/interface.c:3021 src/playlist.c:714 src/playlist.c:784
+msgid "Album"
+msgstr "Album"
+
+#: src/interface.c:410 src/interface.c:1266 src/interface.c:1275
+#: src/interface.c:3025
+msgid "Year"
+msgstr "År"
+
+#: src/interface.c:414 src/interface.c:1285 src/interface.c:1294
+#: src/interface.c:3029
+msgid "Genre"
+msgstr "Genren"
+
+#: src/interface.c:418 src/interface.c:1304 src/interface.c:1313
+#: src/interface.c:3033 src/playlist.c:742 src/playlist.c:812
+msgid "Duration"
+msgstr "Varighed"
+
+#: src/interface.c:422
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: src/interface.c:429
+msgid "_About"
+msgstr "_Om"
+
+#: src/interface.c:482 src/interface.c:484
+msgid "Connect/Disconnect to your device."
+msgstr "Tilslut / Afbryd til enheden."
+
+#: src/interface.c:498 src/interface.c:3202 src/playlist.c:192
+msgid "Add"
+msgstr "Tilføj"
+
+#: src/interface.c:502 src/interface.c:504
+msgid "Add Files to your device."
+msgstr "Tilføj filer til enheden."
+
+#: src/interface.c:502
+msgid "Add a varity of Files to your device in the current folder."
+msgstr "Tilføj en række filer til din enhed i den nuværende mappe."
+
+#: src/interface.c:512
+msgid "Delete"
+msgstr "Slet"
+
+#: src/interface.c:516 src/interface.c:518
+msgid "Delete Files/Folders from your device."
+msgstr "Slet filer / mapper fra enheden."
+
+#: src/interface.c:516
+msgid ""
+"Permanently remove files/folders from your device. Note: Albums are stored "
+"as *.alb files."
+msgstr ""
+"Permanent fjerne filer / mapper fra enheden. Bemærk: Albums gemmes som *. "
+"alb-filer."
+
+#: src/interface.c:530 src/interface.c:532
+msgid "Download Files from your device to your Host PC."
+msgstr "Download filer fra enheden til din Host PC."
+
+#: src/interface.c:530
+msgid ""
+"Download files from your device to your PC. Default Download path is set in "
+"the preferences dialog."
+msgstr ""
+"Downloade filer fra din enhed til din  pc. Standard Download sti er fastsat "
+"i preferences dialogen."
+
+#: src/interface.c:550 src/interface.c:552
+msgid "Upload an image file as Album Art."
+msgstr "Upload en billedfil som albumcover."
+
+#: src/interface.c:550
+msgid "Upload a JPG file and assign it as Album Art."
+msgstr "Upload en JPG-fil og tildele den som albumcover."
+
+#: src/interface.c:560 src/interface.c:3160
+msgid "Playlists"
+msgstr "Afspilningslister"
+
+#: src/interface.c:564 src/interface.c:566
+msgid "Add and Modify Playlists."
+msgstr "Tilføj og rediger afspilningslister."
+
+#: src/interface.c:574
+msgid "Refresh"
+msgstr "Genopfriske"
+
+#: src/interface.c:578 src/interface.c:580
+msgid "Refresh File/Folder listing."
+msgstr "Genopfriske fil / Mappe notering."
+
+#: src/interface.c:594
+msgid "Properties"
+msgstr "Egenskaber"
+
+#: src/interface.c:598 src/interface.c:600
+msgid "View Device Properties."
+msgstr "Se Enhed Egenskaber."
+
+#: src/interface.c:608
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: src/interface.c:612 src/interface.c:614
+msgid "View/Change gMTP Preferences."
+msgstr "Se / Ændre gMTP indstillinger."
+
+#: src/interface.c:659
+msgid "Find:"
+msgstr "Find:"
+
+#: src/interface.c:681
+msgid "Filenames"
+msgstr "Filnavne"
+
+#: src/interface.c:686
+msgid "Track Information"
+msgstr "spor Information"
+
+#: src/interface.c:1079 src/interface.c:1094
+msgid "Filename"
+msgstr "Filnavn"
+
+#: src/interface.c:1120 src/interface.c:1129
+msgid "Size"
+msgstr "Størrelse"
+
+#: src/interface.c:1183 src/interface.c:1192 src/playlist.c:732
+#: src/playlist.c:802
+msgid "Track"
+msgstr "Spor"
+
+#: src/interface.c:1331 src/interface.c:1340
+msgid "Location"
+msgstr "Placering"
+
+#: src/interface.c:1357
+msgid "Folder"
+msgstr "Folder"
+
+#: src/interface.c:1420
+msgid "Select Files to Add"
+msgstr "Vælge filer at tilføje"
+
+#: src/interface.c:1890
+#, c-format
+msgid "Found %d items"
+msgstr "Fandt %d emner"
+
+#: src/interface.c:1892
+#, c-format
+msgid "Found %d item"
+msgstr "Fandt %d emne"
+
+#: src/interface.c:2108 src/interface.c:2109
+msgid "I don't know how to download a parent folder reference?\n"
+msgstr "Jeg ved ikke, hvordan du henter en overordnet mappe reference?\n"
+
+#: src/interface.c:2141
+msgid "Unable to move the selected file?\n"
+msgstr "Kan ikke flytte den valgte fil?\n"
+
+#: src/interface.c:2274 src/interface.c:2275
+msgid "I don't know how to delete a parent folder reference?\n"
+msgstr "Jeg ved ikke, hvordan man sletter en overordnet mappe reference?\n"
+
+#: src/interface.c:2474
+msgid "Error"
+msgstr "Fejl"
+
+#: src/interface.c:2494
+msgid "Information"
+msgstr "Informationer"
+
+#: src/interface.c:2510
+msgid "New Folder"
+msgstr "Ny Mappe"
+
+#: src/interface.c:2512 src/interface.c:2572 src/interface.c:2635
+#: src/interface.c:2698 src/interface.c:2780 src/interface.c:3162
+#: src/interface.c:3359 src/playlist.c:952
+msgid "_OK"
+msgstr "_O.k."
+
+#: src/interface.c:2531
+msgid "Folder Name:"
+msgstr "Mappe Navn:"
+
+#: src/interface.c:2591
+msgid "Device Name:"
+msgstr "Enhedens navn:"
+
+#: src/interface.c:2633
+msgid "Rename File/Folder"
+msgstr "Rename File/Folder"
+
+#: src/interface.c:2654
+msgid "File Name:"
+msgstr "File Name:"
+
+#: src/interface.c:2696
+msgid "Connect to which device?"
+msgstr "Tilslut til hvilken enhed?"
+
+#: src/interface.c:2715
+msgid "Device:"
+msgstr "Enhed:"
+
+#: src/interface.c:2741
+#, c-format
+msgid "Unknown : %04x:%04x @ bus %d, dev %d"
+msgstr "Ukendt : %04x:%04x @ bus %d, dev %d"
+
+#: src/interface.c:2778
+msgid "Connect to which storage device?"
+msgstr "Tilslut som lagerenhed?"
+
+#: src/interface.c:2798
+msgid "Storage Device:"
+msgstr "Lagerenhed:"
+
+#: src/interface.c:2819
+#, c-format
+msgid "Unknown id: %d, %s"
+msgstr "Ukendt ID: %d, %s"
+
+#: src/interface.c:2854
+#, c-format
+msgid ""
+"File <b>%s</b> already exists in target folder.\n"
+"Do you want to:"
+msgstr "Fil <b>%s</b> eksisterer allerede i destinationsmappen. Ønsker du at:"
+
+#: src/interface.c:2856
+msgid "Skip"
+msgstr "Spring"
+
+#: src/interface.c:2857
+msgid "Skip All"
+msgstr "Spring Alle"
+
+#: src/interface.c:2858
+msgid "Overwrite"
+msgstr "Overskriv"
+
+#: src/interface.c:2859
+msgid "Overwrite All"
+msgstr "Overskriv alle"
+
+#: src/interface.c:2861
+msgid "Question: Confirm Overwrite of Existing File?"
+msgstr "Spørgsmål: Bekræft Overskriv af eksisterende fil?"
+
+#: src/interface.c:2905
+msgid "Rename File"
+msgstr "Omdøb fil"
+
+#: src/interface.c:2917
+msgid "Add To Playlist"
+msgstr "Add To Playlist"
+
+#: src/interface.c:2921
+msgid "Remove From Playlist"
+msgstr "Fjern fra afspilningsliste"
+
+#: src/interface.c:2941 src/interface.c:3111
+msgid "Refresh Device"
+msgstr "Genopfriske enhed"
+
+#: src/interface.c:3095
+msgid "Rename Folder"
+msgstr "Omdøb mappe"
+
+#: src/interface.c:3183 src/playlist.c:971
+msgid "Playlist Name:"
+msgstr "Afspilningsliste Navn:"
+
+#: src/interface.c:3211 src/interface.c:3213 src/playlist.c:169
+#: src/playlist.c:171
+msgid "Add New Playlist"
+msgstr "Tilføj Ny afspilningsliste"
+
+#: src/mtp.c:121 src/mtp.c:122
+msgid "Detect: No raw devices found.\n"
+msgstr "Detect: Ingen rå enheder fundet.\n"
+
+#: src/mtp.c:125 src/mtp.c:126 src/mtp.c:134 src/mtp.c:135
+msgid "Detect: There has been an error connecting. \n"
+msgstr "Detect: Der har været en fejl forbinder.\n"
+
+#: src/mtp.c:129 src/mtp.c:130
+msgid "Detect: Encountered a Memory Allocation Error. \n"
+msgstr "Detect: Der opstod en Memory Fordeling Fejl. \n"
+
+#: src/mtp.c:156 src/mtp.c:157
+msgid "Detect: Unable to open raw device?\n"
+msgstr "Detect: Kan ikke åbne rå enhed?\n"
+
+#: src/mtp.c:170 src/mtp.c:171
+msgid "Detect: No available Storage found on device?\n"
+msgstr "Detect: Ingen tilgængelig opbevaring findes på enhed?\n"
+
+#: src/mtp.c:254 src/mtp.c:259
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: src/mtp.c:360
+msgid "DevicePropeties: How did I get called?\n"
+msgstr "DevicePropeties: Hvordan fik jeg hedder?\n"
+
+#: src/mtp.c:485
+msgid "Failed to get storage parameters from the device - need to disconnect."
+msgstr "Kunne ikke få storage parametre fra enheden - har brug for at afbryde."
+
+#: src/mtp.c:512
+msgid "Rescan: How did I get called?\n"
+msgstr "Genskan: Hvordan fik jeg hedder?\n"
+
+#: src/mtp.c:658
+#, c-format
+msgid ""
+"Unable to add %s due to insufficient space: filesize = %llu, freespace = %"
+"llu\n"
+msgstr ""
+"Kan ikke tilføje %s på grund af utilstrækkelig plads: Filstørrelse = %llu, "
+"ledig plads = %llu\n"
+
+#: src/mtp.c:662
+msgid "Unable to add file due to insufficient space"
+msgstr "Kunne ikke tilføje filen på grund af utilstrækkelig plads"
+
+#: src/mtp.c:728 src/mtp.c:738
+msgid "<Unknown>"
+msgstr "<Ukendt>"
+
+#: src/mtp.c:757
+msgid "Error sending track.\n"
+msgstr "Fejl under afsendelse spor.\n"
+
+#: src/mtp.c:758
+#, c-format
+msgid "Error code %d sending track to device: <b>%s</b>"
+msgstr "Fejlkode %d sendes spor til enheden: <b>%s</b>"
+
+#: src/mtp.c:805
+#, c-format
+msgid "Error sending file %s.\n"
+msgstr "Fejl ved afsendelse af filen %s.\n"
+
+#: src/mtp.c:806
+msgid "Error sending file:"
+msgstr "Fejl ved afsendelse af fil:"
+
+#: src/mtp.c:884
+#, c-format
+msgid ""
+"\n"
+"Failed to delete file %s\n"
+msgstr ""
+"\n"
+"Kunne ikke slette fil %s\n"
+
+#: src/mtp.c:885
+msgid "Failed to delete file"
+msgstr "Kunne ikke slette fil"
+
+#: src/mtp.c:916
+msgid ""
+"\n"
+"Error getting file from MTP device.\n"
+msgstr ""
+"\n"
+"Fejl ved hentning af filen fra MTP enhed.\n"
+
+#: src/mtp.c:917
+msgid "Error getting file from MTP device."
+msgstr "Fejl ved hentning af filen fra MTP enhed."
+
+#: src/mtp.c:1026 src/mtp.c:1125
+#, c-format
+msgid "Folder creation failed: %s\n"
+msgstr "Oprettelse af mapper mislykkedes: %s\n"
+
+#: src/mtp.c:1027 src/mtp.c:1126
+msgid "Folder creation failed:"
+msgstr "Oprettelse af mapper mislykkedes:"
+
+#: src/mtp.c:1080
+#, c-format
+msgid "Couldn't delete folder %s (%x)\n"
+msgstr "Kunne ikke slette mappe %s (%x)\n"
+
+#: src/mtp.c:1283
+#, c-format
+msgid "Error: Couldn't set device name to %s\n"
+msgstr "Fejl: Kunne ikke sætte enheden navn til %s\n"
+
+#: src/mtp.c:1289
+msgid "setDeviceName: How did I get called?\n"
+msgstr "setDeviceName: Hvordan fik jeg hedder?\n"
+
+#: src/mtp.c:1475
+msgid "ERROR: Failed memory allocation in albumAddTrackToAlbum()\n"
+msgstr "FEJL: Kunne ikke hukommelse tildeling i albumAddTrackToAlbum  ()\n"
+
+#: src/mtp.c:1504 src/mtp.c:1505
+msgid ""
+"Error creating or updating album.\n"
+"(This could be due to that your device does not support albums.)\n"
+msgstr ""
+"Fejl ved oprettelse eller opdatering album.\n"
+"(Dette kunne skyldes, at enheden ikke understøtter album.)\n"
+
+#: src/mtp.c:1538
+msgid "ERROR: Failed memory allocation in albumAddArt()\n"
+msgstr "FEJL: Kunne ikke hukommelse tildeling i albumAddArt ()\n"
+
+#: src/mtp.c:1543 src/mtp.c:1550
+#, c-format
+msgid "Couldn't open image file %s\n"
+msgstr "Kunne ikke åbne billedfil %s\n"
+
+#: src/mtp.c:1563 src/mtp.c:1564
+msgid "Couldn't send album art\n"
+msgstr "Kunne ikke sende albumcover\n"
+
+#: src/mtp.c:1616 src/mtp.c:1617
+msgid "Couldn't remove album art\n"
+msgstr "Kunne ikke fjerne albumcover\n"
+
+#: src/mtp.c:1680 src/mtp.c:1798
+msgid "Couldn't create playlist object\n"
+msgstr "Kunne ikke oprette afspilningsliste objekt\n"
+
+#: src/mtp.c:1696
+msgid "Deleting playlist failed?\n"
+msgstr "Sletning afspilningsliste  mislykkedes?\n"
+
+#: src/mtp.c:1711
+msgid "Updating playlist failed?\n"
+msgstr "Opdatering afspilningsliste  mislykkedes?\n"
+
+#: src/mtp.c:1744
+#, c-format
+msgid "Couldn't open playlist file %s\n"
+msgstr "Kunne ikke åbne filen med afspilningslisten %s\n"
+
+#: src/mtp.c:1745
+msgid "Couldn't open playlist file\n"
+msgstr "Kunne ikke åbne filen med afspilningslisten\n"
+
+#: src/mtp.c:1767
+msgid "realloc in playlistImport failed\n"
+msgstr "realloc i savePlayList  mislykkedes\n"
+
+#: src/mtp.c:1768
+msgid "Updating playlist failed? 'realloc in playlistImport'\n"
+msgstr "Opdatering afspilningsliste mislykkedes? 'realloc i savePlayList'\n"
+
+#: src/mtp.c:1804
+msgid "Playlist imported.\n"
+msgstr "Playlist importeret.\n"
+
+#: src/mtp.c:1808 src/mtp.c:1809
+msgid ""
+"Found no tracks within the playlist that exist on this device. Did not "
+"import the playlist.\n"
+msgstr ""
+"Fandt ingen spor i spillelisten, der findes på denne enhed. Har ikke "
+"importere afspilningslisten.\n"
+
+#: src/mtp.c:1841
+#, c-format
+msgid "Couldn't save playlist file %s\n"
+msgstr "Kunne ikke gemme playlist fil %s\n"
+
+#: src/mtp.c:1842
+msgid "Couldn't save playlist file\n"
+msgstr "Kunne ikke gemme playlist fil\n"
+
+#: src/mtp.c:1870
+msgid "Format Device failed?\n"
+msgstr "Format Enhed mislykkedes?\n"
+
+#: src/mtp.c:1893 src/mtp.c:1953 src/playlist.c:1275 src/playlist.c:1287
+msgid "realloc in savePlayList failed\n"
+msgstr "realloc i savePlayList  mislykkedes\n"
+
+#: src/mtp.c:1894 src/mtp.c:1954 src/playlist.c:1276 src/playlist.c:1288
+msgid "Updating playlist failed? 'realloc in savePlayList'\n"
+msgstr "Opdatering afspilningsliste mislykkedes? 'realloc i savePlayList'\n"
+
+#: src/mtp.c:2205 src/mtp.c:2261 src/mtp.c:2347
+msgid "malloc in filesSearch failed\n"
+msgstr "realloc i savePlayList  mislykkedes\n"
+
+#: src/mtp.c:2206 src/mtp.c:2262 src/mtp.c:2348
+msgid "Failed searching? 'malloc in filesSearch'\n"
+msgstr ""
+
+#: src/mtp.c:2424
+msgid "malloc in foldersearch failed\n"
+msgstr "realloc i savePlayList  mislykkedes\n"
+
+#: src/mtp.c:2425
+msgid "Failed searching? 'malloc in foldersearch'\n"
+msgstr ""
+
+#: src/playlist.c:125
+msgid " Playlists"
+msgstr " Afspilningslister"
+
+#: src/playlist.c:150
+msgid "Current Playlist: "
+msgstr "Nuværende spilleliste: "
+
+#: src/playlist.c:201 src/playlist.c:203
+msgid "Remove Current Selected Playlist"
+msgstr "Fjern aktuelt valgte spilleliste"
+
+#: src/playlist.c:225
+msgid "Del"
+msgstr "Slet"
+
+#: src/playlist.c:233
+msgid "Open"
+msgstr "Open"
+
+#: src/playlist.c:239 src/playlist.c:241
+msgid "Import Playlist"
+msgstr "Import Playlist"
+
+#: src/playlist.c:248
+msgid "Save"
+msgstr "Gem"
+
+#: src/playlist.c:254 src/playlist.c:256
+msgid "Export Playlist"
+msgstr "Eksport Playlist"
+
+#: src/playlist.c:278 src/playlist.c:280
+msgid "Device Audio Tracks"
+msgstr "Enhed lydspor"
+
+#: src/playlist.c:303 src/playlist.c:305
+msgid "Add file to playlist"
+msgstr "Tilføj afspilningslisten "
+
+#: src/playlist.c:326
+msgid "Add File"
+msgstr "Tilføj fil"
+
+#: src/playlist.c:334 src/playlist.c:336
+msgid "Remove file from playlist"
+msgstr "Fjern fil fra afspilningslisten"
+
+#: src/playlist.c:357
+msgid "Del File"
+msgstr "Slet fil"
+
+#: src/playlist.c:371 src/playlist.c:373
+msgid "Playlist Audio Tracks"
+msgstr "Afspilningsliste lydspor"
+
+#: src/playlist.c:403 src/playlist.c:405
+msgid "Move selected file up in the playlist"
+msgstr "Flyt valgte fil op i spillelisten"
+
+#: src/playlist.c:420 src/playlist.c:422
+msgid "Move selected file down in the playlist"
+msgstr "Flyt valgte fil ned i spillelisten"
+
+#: src/playlist.c:435
+msgid "Close"
+msgstr "Luk"
+
+#: src/playlist.c:764
+msgid "Num"
+msgstr "Nummer"
+
+#: src/playlist.c:950
+msgid "New Playlist"
+msgstr "Ny spilleliste"
+
+#: src/playlist.c:1384
+msgid "Select Playlist to Import"
+msgstr "Vælg Spilleliste til Import"
+
+#: src/playlist.c:1434 src/playlist.c:1435
+msgid "The playlist failed to import correctly.\n"
+msgstr "Afspilningslisten undladt at importere korrekt.\n"
+
+#: src/playlist.c:1471
+msgid "Save as..."
+msgstr "Gem som..."
+
+#: src/preferences.c:108
+msgid " Preferences"
+msgstr " Indstillinger"
+
+#: src/preferences.c:132
+msgid "<b>Application</b>"
+msgstr "<b>Application:</b>"
+
+#: src/preferences.c:149
+msgid "Toolbar Style:"
+msgstr ""
+
+#: src/preferences.c:157 src/preferences.c:164 src/preferences.c:811
+#: src/preferences.c:845
+msgid "both"
+msgstr ""
+
+#: src/preferences.c:158 src/preferences.c:165 src/preferences.c:813
+#: src/preferences.c:847
+msgid "icon"
+msgstr ""
+
+#: src/preferences.c:159 src/preferences.c:166 src/preferences.c:815
+#: src/preferences.c:849
+msgid "text"
+msgstr ""
+
+#: src/preferences.c:206
+msgid "Attempt to connect to Device on startup"
+msgstr "Forsøg at oprette forbindelse til enheden ved opstart"
+
+#: src/preferences.c:210
+msgid "Utilize alternate access method"
+msgstr "Udnyt alternativ adgang metode"
+
+#: src/preferences.c:214
+msgid "<b>Device</b>"
+msgstr "<b>Enhed</b>"
+
+#: src/preferences.c:251
+msgid "Confirm File/Folder Delete"
+msgstr "Bekræft fil / mappe Slet"
+
+#: src/preferences.c:255
+msgid "Prompt if to Overwrite file if already exists"
+msgstr "Spørg hvis du vil overskrive filen, hvis der allerede eksisterer"
+
+#: src/preferences.c:259
+msgid "Suppress Album Errors"
+msgstr "Undertryk Album Fejl"
+
+#: src/preferences.c:263
+msgid "Treat all media as regular files"
+msgstr "Behandl alle medier som almindelige filer"
+
+#: src/preferences.c:274
+msgid "<b>Playlist</b>"
+msgstr "<b>Playlist</b>"
+
+#: src/preferences.c:296
+msgid "Prompt to add New Music track to existing playlist"
+msgstr "Spørg for at tilføje New Music spor til eksisterende afspilningsliste"
+
+#: src/preferences.c:300
+msgid "Ignore path information when importing playlist"
+msgstr "Ignorer stioplysninger ved import afspilningsliste"
+
+#: src/preferences.c:304
+msgid "<b>File Operations</b>"
+msgstr "<b>Filhandlinger</b>"
+
+#: src/preferences.c:326
+msgid "Always show Download Path?"
+msgstr "Vis altid download sti?"
+
+#: src/preferences.c:346
+msgid "Download Path:"
+msgstr "Download-sti:"
+
+#: src/preferences.c:357
+msgid "Upload Path:"
+msgstr "Upload Sti:"
+
+#: src/preferences.c:411
+msgid "<b>Filepaths on PC</b>"
+msgstr "<b>Filstier på PC</b>"
+
+#: src/preferences.c:725
+msgid "Select Path to Download to"
+msgstr "Vælg Sti til Download til"
+
+#: src/preferences.c:760
+msgid "Select Path to Upload From"
+msgstr "Vælg sti til Upload Fra"
+
+#: src/prefs.c:122
+msgid ""
+"WARNING: gconf schema invalid, reverting to defaults. Please ensure schema "
+"is loaded in gconf database.\n"
+msgstr ""
+"ADVARSEL: GConf skema ugyldig, vender tilbage til standardindstillinger. Du "
+"sikre skema er lagt i GConf database.\n"
+
+#: src/prefs.c:257
+msgid ""
+"WARNING: gconf schema invalid, unable to save! Please ensure schema is "
+"loaded in gconf database.\n"
+msgstr ""
+"ADVARSEL: GConf skema ugyldig, ude af stand til at redde! Du sikre skema er "
+"lagt i GConf database.\n"
+
+#: src/prefs.c:463 src/prefs.c:695
+msgid "Disconnected device due to access method change"
+msgstr "Afbrudt enhed på grund af adgang metode forandring"
+
+#: src/prefs.c:515
+msgid ""
+"WARNING: gconf_callback_func() failed - we got a callback for a key thats "
+"not ours?\n"
+msgstr ""
+"ADVARSEL: gconf_callback_func () mislykkedes - vi fik en "
+"tilbagekaldsanmodning  for en nøgle thats ikke vores?\n"
+
+#: src/prefs.c:735
+msgid ""
+"WARNING: gsettings_callback_func() failed - we got a callback for a key "
+"thats not ours?\n"
+msgstr ""
+"ADVARSEL: gsettings_callback_func () mislykkedes - vi fik en "
+"tilbagekaldsanmodning  for en nøgle thats ikke vores?\n"
+
+#: src/progress.c:104
+msgid "file = ( x / x ) x %"
+msgstr "file = ( x / x ) x %"
+
+#: src/progress.c:219
+#, c-format
+msgid ""
+"%s\n"
+"%s of %s (%d%%)"
+msgstr ""
+"%s\n"
+"%s af %s (%d%%)"
+
+#: src/progress.c:222
+#, c-format
+msgid "%s of %s (%d%%)"
+msgstr "%s af %s (%d%%)"
+
+#: src/properties.c:111
+msgid " Properties"
+msgstr " Egenskaber"
+
+#: src/properties.c:132
+msgid "<b>MTP Device Properties</b>"
+msgstr "<b>MTP enhed egenskaber</b>"
+
+#: src/properties.c:141
+msgid "<b>Raw Device Information</b>"
+msgstr "<b>Rå enhedsoplysninger</b>"
+
+#: src/properties.c:174
+msgid "<b>Name:</b>"
+msgstr "<b>Navn:</b>"
+
+#: src/properties.c:253
+msgid "<b>Model Number:</b>"
+msgstr "<b>Model nummer:</b>"
+
+#: src/properties.c:266
+msgid "<b>Serial Number:</b>"
+msgstr "<b>Serienummer:</b>"
+
+#: src/properties.c:279
+msgid "<b>Device Version:</b>"
+msgstr "<b>Enhed version:</b>"
+
+#: src/properties.c:292
+msgid "<b>Manufacturer:</b>"
+msgstr "<b>Producent:</b>"
+
+#: src/properties.c:305
+msgid "<b>Battery Level:</b>"
+msgstr "<b>Batterilevel:</b>"
+
+#: src/properties.c:318
+msgid "<b>Storage:</b>"
+msgstr "<b>Opbevaring:</b>"
+
+#: src/properties.c:344
+msgid "<b>Supported Formats:</b>"
+msgstr "<b>Understøttede formater:</b>"
+
+#: src/properties.c:359
+msgid "<b>Secure Time:</b>"
+msgstr "<b>Sikker Tid:</b>"
+
+#: src/properties.c:372
+msgid "<b>Sync Partner:</b>"
+msgstr "<b>Synkronisering partner:</b>"
+
+#: src/properties.c:449
+msgid "<b>Vendor:</b>"
+msgstr "<b>Leverandør:</b>"
+
+#: src/properties.c:462
+msgid "<b>Product:</b>"
+msgstr "<b>Produkt:</b>"
+
+#: src/properties.c:475
+msgid "<b>Vendor ID:</b>"
+msgstr "<b>Leverandør-id:</b>"
+
+#: src/properties.c:488
+msgid "<b>Product ID:</b>"
+msgstr "<b>Produkt-ID:</b>"
+
+#: src/properties.c:501
+msgid "<b>Device Number:</b>"
+msgstr "<b>Enhed nummer:</b>"
+
+#: src/properties.c:514
+msgid "<b>Bus Location:</b>"
+msgstr "<b>Bus Beliggenhed:</b>"
+
+#: src/properties.c:632
+#, c-format
+msgid "%d MB (free) / %d MB (total)"
+msgstr "%d MB (gratis) / %d MB (samlede)"
+
+#~ msgid "Quit"
+#~ msgstr "Afslut"
+
+#~ msgid "Quit gMTP."
+#~ msgstr "Afslut gMTP."
+
+#~ msgid "%s - %s of %s (%d%%)"
+#~ msgstr "%s - %s af %s (%d%%)"
+
+#~ msgid "   %s %s : (%04x:%04x) @ bus %d, dev %d"
+#~ msgstr "   %s %s : (%04x:%04x) @ bus %d, dev %d"
+
+#~ msgid " : %d MB (free) / %d MB (total)"
+#~ msgstr " : %d MB (gratis) / %d MB (samlede)"
+
+#~ msgid "<b><big>"
+#~ msgstr "<b><big>"
+
+#~ msgid "Add Album Art"
+#~ msgstr "Tilføj albumcover"
+
+#~ msgid "FileSize Hidden"
+#~ msgstr "FileSize Hidden"
+
+#~ msgid "Filename:"
+#~ msgstr "Filnavn:"
+
+#~ msgid "Object ID"
+#~ msgstr "Object ID"
+
+#~ msgid "file://"
+#~ msgstr "file://"
+
+#~ msgid "Columns"
+#~ msgstr "Kolonner"

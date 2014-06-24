@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+        <meta name="description" content="gMTP MP3 Player Client for UNIX, Solaris, Linux and BSD Based systems" />
+        <meta name="keywords" content="gMTP, MP3, MTP, media transfer protocol, Solaris, Linux, BSD, UNIX" />
+        <meta name="author" content="Darran Kartaschew" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" title="Modern" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" media="print" title="Modern" />
+
+        <title>gMTP v1.3.6 - A simple MP3 and Media Player Client for UNIX and UNIX like systems</title>
+    </head>
+    <body>
+
+        <div class="noprint">
+        <nav>
+            <ul class="fancyNav">
+                <li id="home"><a href="index.html" class="homeIcon">Home</a></li>
+                <li id="features"><a href="features.html">Features</a></li>
+                <li id="download"><a href="downloads.html">Downloads</a></li>
+                <li id="usage"><a href="usage.html">Usage</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id="ContentArea">
+            <h1>gMTP Usage</h1>
+            <p>run </p>
+            <p class="code">
+                <code>$ gmtp</code>
+            </p>
+            <p>
+                To start gMTP.</p>
+            <h2>Toolbar</h2>
+            <p class="align_center">
+                <img src="images/Help1.png" title="gMTP Toolbar" alt="Toolbar" /></p>
+            <p>
+                The main Toolbar contains the main functions available for using MTP based devices, or alternative use the main
+                menu or right click on the file area to gain access to basic file operations. All of these are self described.</p>
+            <h2>Working with Files and Folders</h2>
+            <p>
+                The default view of the device, is to list all files and folders within the main window. Different columns
+                for display may be chosen from the <code>View</code> menu. Below is a screen shot of all the different icons
+                that are shown within gMTP to signify different file types.</p>
+            <p class="align_center">
+                <img src="images/Help2.png" title="gMTP File Area" alt="Folder" /></p>
+            <p>
+                Starting from the top these are:</p>
+            <ol>
+                <li>Folders</li>
+                <li>Generic Files</li>
+                <li>Plain text Files</li>
+                <li>Playlist Files</li>
+                <li>Multimedia Files</li>
+                <li>Audio Files</li>
+                <li>Album Information Files</li>
+                <li>Image Files</li>
+            </ol>
+            <p>
+                All file operations can be accessed from the <code>File</code> menu, or alternatively, right clicking within the
+                view area. Double clicking on a file will download it to your PC/Laptop, and double clicking on a folder will access
+                the contents of the folder. Folders with <code>..</code> let you move up in the folder structure, (go back to the
+                previous folder).</p>
+            <p>
+                Drag'n'Drop support is enabled for uploading files to the device. Simply drop the desired files/folder
+                into gMTP to upload the files/folders to the device.</p>
+            <h2>Preferences</h2>
+            <p class="align_center">
+                <img src="images/Help3.png" title="gMTP Preferences" alt="Preferences" /></p>
+            <p>
+                Application preferences may be accessed via the toolbar, or through the <code>Edit > Preferences</code> menu.
+                Use the Preferences to set upload and download paths. (Note: the last upload/download path is saved when you
+                exit the application).</p>
+            <ul>
+                <li><span class="pref">Toolbar style</span>. <br />Set the toolbar style. Icon = Icons only, Text = Text only,
+                Both = Both text and Icon are to be shown. To disable the toolbar completely, use the View->Toolbar menu item.</li>
+                <li><span class="pref">Attempt to connect to Device on startup</span>. <br />Enable to auto connect to a 
+                    device when gMTP starts.</li>
+                <li><span class="pref">Utilize alternate access method</span>. <br /> Enable to use uncached mode for
+                    connecting to a device. Note, that when this is enabled, the folder view is disabled completely and
+                    moving files is not possible. (Use this option is you experience issues either connecting, browsing 
+                    or performing file operations with the current connected device).</li>
+                <li><span class="pref">Confirm File/Folder Delete</span>. <br /> Enables the confirmation of file delete 
+                    operations.</li>
+                <li><span class="pref">Prompt to Overwrite file if already exists</span>. <br /> Enables the confirmation dialog
+                    if the correct file operation will overwrite another file.</li>
+                <li><span class="pref">Suppress Album Errors</span>. <br /> Enable this option if your device does not support
+                    album metadata, and you don't wish to see errors related to this missing device functionality.</li>
+                <li><span class="pref">Treat all media as regular files</span>. <br /> Enable this option if your device has
+                    issues with receiving track information from gMTP, or if you wish to not have gMTP display/obtain
+                    additional information from media/music files.</li>
+                <li><span class="pref">Prompt to add New Music tracks to existing playlist</span>. <br /> Enables this to be
+                    prompted for automatic playlist management when uploading music files to the device.</li>
+                <li><span class="pref">Ignore path information when importing playlist</span>. <br /> Enable to have gMTP
+                    ignore file path information when importing playlists onto the device. (Attempt to find the track 
+                    irrespective of the folder it resides in).</li>
+                <li><span class="pref">Always show download path</span>. <br /> When downloading files from the device to
+                    the host PC, always show the download location dialog to select the download path.</li>
+            </ul>
+            <h2>Playlists</h2>
+            <p>
+                gMTP is able to import and export playlists in m3u format, with some restrictions. These restrictions are:</p>
+            <ol>
+                <li>EXTM3U tags and information is ignored.</li>
+                <li>A "#GMTPPLA: " tag can be used to set the playlist name. This tag may exist anywhere in the file.
+                    For example to set the playlist name to "Good Songs", then use "<code>#GMTPPLA: Good Songs</code>"
+                    within the m3u file on it's own line. If this tag is not found, then the m3u filename is used as the
+                    playlist name (minus the "m3u" file extension).</li>
+                <li>All paths indicated within the m3u playlist file are expected to be relative based on the file
+                    location within your MTP device, and NOT relative to the location of the m3u file itself within
+                    the PC local filesystem. You may set the "Ignore path information when importing playlist"
+                    setting in preferences so that gMTP will ignore any file path information and search all folders
+                    for the music file.</li>
+                <li>All files indicated within the m3u must exist within the current mounted storage device for those
+                    devices that support or have multiple storage pools. (eg Mobile Phones, Tablets).</li>
+                <li>If no files are located on the device as indicated within the m3u playlist file, then the playlist
+                    will not be created.</li>
+            </ol>
+            <h2>FAQ</h2>
+            <p><span class="question">Q. What is MTP?</span><br />
+                A. MTP = Media Transfer Protocol. MTP has been adopted by most major MP3 and Mobile Phone manufacturers as the
+                method of talking to devices to upload/download files to/from a PC.
+                See <a href="http://en.wikipedia.org/wiki/Media_Transfer_Protocol">Media Transfer Protocol</a> for more information.</p>
+            <p><span class="question">Q. Why doesn&#39;t gMTP support my iPod or Creative Nomad player</span><br />
+                A. These devices do not use MTP for moving data to/from a device. Apple iPod uses it's own custom protocol
+                in additional to USB Mass Storage and Creative devices use NJB.</p>
+            <p><span class="question">Q. I have a MTP enabled device and it is connected to my PC, but it doesn't get detected by gMTP?</span><br />
+                A. Most devices are capable of using different modes to talk to your PC, so ensure that the device is in MTP mode.<br />
+                A. Or, libmtp doesn't know about your device or how to handle it correctly. Run <code>$ mtp-detect</code> to see
+                if it can be found.<br />
+                A. Occasionally, some devices become confused if you connect and disconnect them in gMTP, but do not physically
+                disconnect/reconnect them. In this instance, close gMTP, physically disconnect and reconnect the device, and
+                restart gMTP. It should connect.</p>
+            <p><span class="question">Q. I have a MTP enabled device, it connects, but gMTP crashes or the device resets?</span><br />
+                A. There may be a bug in gMTP or libmtp that is causing the crash. Please file a bug report with the gMTP project ticket system
+                and it will be looked at.<br />
+                A. Some MTP implementations on devices are horribly broken, or have known issues with libmtp. Unfortunately there
+                is little that can be done about these devices except complaining to the device vendor to test their device on UNIX with
+                libmtp as the connection library.</p>
+            <p><span class="question">Q. Do you have a list of devices that work with gMTP?</span><br />
+                A. Unfortunately no. (I test with an iRiver Clix 2G, Toshiba Thrive tablet and HTC Desire X phone, and all of these work extremely well).</p>
+            <p><span class="question">Q. I get asked which storage device to connect to when I connect to my mobile phone?</span><br />
+                A. Some devices (notably mobile phones), have both internal storage (non-removable) and external storage (removable
+                storage) in the form of a micro-SD card or M2 card, and gMTP will treat these as different storage devices.</p>
+            <p><span class="question">Q. Does gMTP support Albums and uploading Album Art?</span><br />
+                A. Yes. Album data is autocreated/updated when you upload a MP3 (or other supported audio file) by using information
+                contained within the audio file, eg. Using the ID3 Tag information in an MP3 file. Once the Album has been created,
+                you can upload the album art via the <code>Edit</code> / <code>Album Art</code> menu option.</p>
+            <p><span class="question">Q. Will this software work on OpenSolaris, Linux, *BSD or other POSIX Operating System</span><br />
+                A. I have reports that it runs successfully on OpenSolaris, Arch Linux, Debian and Ubuntu. </p>
+            <p><span class="question">Q. What about SPARC, ARM or other non-x86 systems?</span><br />
+                A. It should work fine but is untested. (If libmtp and libid3tag work fine on your platform, then gMTP should as well).</p>
+            <p><span class="question">Q. Do I need root access to use gMTP?</span><br />
+                A. On Solaris 10, in general No. (If you do need root access, then double check your RBAC setup for your user
+                then). On Linux, in general No, as libmtp
+                should have set your udev rules correctly for libmtp known devices.</p>
+            <p><span class="question">Q. In the file view or playlist editor, tracks have a length of 0:00?</span><br />
+                A. The length field displayed is reliant on the track data being set correctly when the audio file was uploaded. Some
+                file transfer utilities do not set this information correctly (and earlier versions of gMTP are also guilty of this). Simply download
+                and re-upload the audio file using gMTP to correct the track data on the player.</p>
+            <p><span class="question">Q. I have the same audio file loaded on my device in different formats, but the song duration is
+                    different between them.</span><br />
+                A. WMA, FLAC and OGG all store the song duration in header information, and this is set by the encoder used to create
+                the file. It may be a bug with the encoder? With MP3 files, the track duration is calculated when the file is uploaded,
+                so this information should be correct unless you have a corrupt MP3 file.</p>
+            <p><span class="question">Q. The translations are pretty awful or just plain wrong, or why don't you have xyz language?</span><br />
+                A. The initial translations were done using Google Translate services, so accuracy is not 100%. Please email me with
+                corrections to existing translations. If you would like a particular language added, and are happy to assist, please
+                let me know or simply email me with the correct *.po file with the translations for your language.</p>
+            <p><span class="question">Q. I'm using French Canadian (fr_CA.UTF-8) as my locale on Solaris 10, but I don't get French
+                    translations?</span><br />
+                A. This is due to an idiosyncrasy on Solaris 10 and language translations. Either:</p>
+            <ol><li>Copy the gmtp.mo file from /usr/local/share/locale/fr/LC_MESSAGES to /usr/local/share/locale/fr_CA.UTF-8/LC_MESSAGES,
+                    and restart gmtp.</li>
+                <li>or, create a symlink fr_CA.UTF-8 pointing to fr in /usr/local/share/locale using 'ln -s fr fr_CA.UTF-8'.</li></ol>
+            <p>French translations should now be present. (Technical information:
+                On Solaris, the gettext() call will only look in the current locale folder as defined by the LC_MESSAGES environment
+                variable and not the base language folder as well for translations, so if the locale is set to 'fr_CA.UTF-8', gettext()
+                will only look in that locale folder and not 'fr' as well - which is what the GNU version of gettext() does). This
+                applies to all languages on Solaris 10. For Linux/FreeBSD uses this should not be an issue as most will use the GNU
+                version of gettext().</p>
+            <p><span class="question">Q. The column view options do not appear to be working?</span><br />
+                A. The gconf schema was updated in v0.8. Please update your local schema file.</p>
+            <p><span class="question">Q. I'm attempting to install gMTP from source and it's complaining about missing files?</span><br />
+                A. Please ensure all dependencies have been installed prior to attempting to build gMTP.<br />
+                A. Some operating systems separate header packages (needed to build software) from the main software component package.
+                Please ensure these are installed as well.<br />
+                A. On some Linux distributions, id3tag is installed without a matching PKGCONFIG file which is required to build gMTP.
+                An example id3tag.pc file can be found on the Installation page, under 'id3tag'.
+            </p>
+            <p><span class="question">Q. I'm attempting to move some files, and I always get an error. What's the issue?</span><br />
+                A. gMTP uses the MTP function 'moveObject' to perform move operations. However only a few devices actually support this
+                function, and if they do actually advertise it supports the function, it may be horribly broken. Basically complain to 
+                your device manufacturer that it doesn't support this function, and that they should add it in, since it is actually part 
+                of the MTP Specification. To see if your device has this option available, run 'mtp-detect' and look under the supported 
+                commands for command '1019: MoveObject'. The other method I could use is to download the files/folders to your PC, 
+                re-upload them again and delete the originals, however this is very time intensive, and in these cases it's better than 
+                the user do this themselves.
+            </p>
+            <p><span class="question">Q. I have an Android device and .... isn't working?</span><br />
+                A. There are a few answers or explanations with Android.</p>
+            <ol><li> Some device vendors have opted to use their own MTP software stack with
+                    their device, and some of these implementations are horribly broken.
+                    Contact your device manufacturer for further assistance. (AFAIK, this is
+                    primarily Samsung with Android 2.x devices, and some lesser known Chinese
+                    developed handsets often rebadged as Carrier own-brand handsets).</li>
+                <li>Android 1.x-2.x doesn't have a native MTP implementation, so if your
+                    device has MTP functionality, see the above comment.</li>
+                <li>Android 3.x-4.x has native MTP functionality, but is missing some features
+                    and does have some bugs in the implementation. Some noted issues:
+                    <ol><li>Does not support albums or album metadata. So you can't upload custom
+                            album art.</li>
+                        <li>Some users have reported issues with Playlist support. (Try to get a
+                            newer revision of your version of Android).</li>
+                        <li>Android 3.2 has a nasty bug, in that an application is unable to 
+                            call the Storage APIs more than once in a session. gMTP 1.3.2+ works 
+                            around this by caching the device storage information. (but not the 
+                            file listing or related metadata).</li>
+                        <li>Samsung Galaxy and Google Nexus devices have connectivity issues, that I'm
+                            hoping can be resolved via patches to libmtp. Sorry, there is nothing I 
+                            can do about that situation. Complain to Samsung and Google, and try to
+                            get them actively involved in libmtp.</li></ol>
+                </li>
+            </ol>
+            <p><span class="question">Q. What is the alternate access method?</span><br />
+                A. There are two main methods of accessing MTP based devices, either cached or uncached. gMTP
+                originally only used the cached method as this worked well for the majority of devices. (All
+                device information including file/track information was cached in the application for performance
+                reasons). With the introduction of Google's MTP stack in Android 3.x, it changed many things, in
+                particular that it only worked well in uncached mode. (Android's MTP stack as far as I know is 
+                server implementation that shares the underlying resource with the device and the host PC, unlike
+                the usual MP3 scenario, where the once the host device took connect it was given sole access to
+                the media storage). Because of this shared nature, using cached information in the application 
+                is a "really bad idea", since you're relying on information that may change. So gMTP now has
+                the ability to use the uncached mode as well, which should improve stability with Android 3.x and
+                newer devices that use MTP. The downside to the uncached mode, is that every action now requires
+                getting data from the device, which may be painful on slower or congested USB busses...
+                (I would rather stability for users, and have them wait 0.5secs over an unstable and poor 
+                experience using the application). (Alternate access method = uncached mode).
+            </p>
+            <p><span class="question">Q. What does the "g" part in gMTP stand for? It isn't to denote that you're a 
+                    GNOME based application, is it? (If it does, that's lame).</span><br />
+                A. While many GNOME applications have a leading G, and likewise many KDE
+                applications have a K, the "g" actually stands for "graphical", as in:
+                "graphical MTP", since its a graphical interface for MTP based devices...
+                Sorry to disappoint people.
+            </p>
+        </div>
+        <div class="noprint">
+        <footer>
+            <p class="align_center">Copyright &copy; 2014 Darran Kartaschew. All rights reserved.</p>
+        </footer>
+        </div>
+    </body>
+</html>
+
+

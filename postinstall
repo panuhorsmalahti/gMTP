@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/bin/gconftool-2 --install-schema-file=/usr/local/share/gconf/schemas/gmtp.schemas

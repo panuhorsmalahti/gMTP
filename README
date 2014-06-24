@@ -1,0 +1,176 @@
+gMTP v1.3.6
+
+A basic MTP client for Oracle Solaris 10.
+
+Supports MTP devices including those with multiple storage devices
+(typically mobile phones). Supports Drag'n'Drop interface for
+upload/download of files.
+
+See INSTALL for build/install instructions.
+
+FAQ
+
+Q. What is MTP?
+A. MTP = Media Transfer Protocol. MTP has been adopted by most major MP3 and 
+   Mobile Phone manufacturers as the method of talking to devices to
+   upload/download files to/from a PC. See
+   http://en.wikipedia.org/wiki/Media_Transfer_Protocol for more information.
+
+Q. Why doesn't gMTP support my iPod or Creative Nomad player?
+A. These devices do not use MTP for moving data to/from a device. Apple iPod 
+   uses it's own custom protocol in additional to USB Mass Storage and Creative
+   devices use NJB.
+
+Q. I have a MTP enabled device and it is connected to my PC, but it doesn't get
+   detected by gMTP?
+A. Most devices are capable of using different modes to talk to your PC, so
+   ensure that the device is in MTP mode.<br />
+A. Or, libmtp doesn't know about your device or how to handle it correctly. 
+   Run '$ mtp-detect' to see if it can be found.
+
+Q. I get asked which storage device to connect to when I connect to my mobile
+   phone?
+A. Some devices (notably mobile phones), have both internal storage 
+   (non-removable) and external storage (removable storage) in the form of a
+   micro-SD card or M2 card, and gMTP will treat these as different storage
+   devices.
+
+Q. Does gMTP support Albums and uploading Album Art?
+A. Yes. Album data is autocreated/updated when you upload a MP3 (or other 
+   supported audio file) by using information contained within the audio file,
+   eg. Using the ID3 Tag information in an MP3 file. Once the Album has been
+   created, you can upload the album art via the 'Edit / Album Art' menu
+   option.
+
+Q. Will this software work on OpenSolaris, Linux, *BSD or other POSIX Operating 
+   System?
+A. I have reports that it runs successfully on OpenSolaris, Arch Linux, Debian
+   and Ubuntu.
+
+Q. What about SPARC, ARM or other non-x86 systems?
+A. It should work fine but is untested. (If libmtp and libid3tag work fine on
+   your platform, then gMTP should as well).
+
+Q. Do I need root access to use gMTP?
+A. On Solaris 10, in general No. (If you do need root access, then double check
+   your RBAC setup for your user then). On Linux, in general No, as libmtp
+   should have set your udev rules correctly for libmtp known devices.
+
+Q. In the file view or playlist editor, tracks have a length of 0:00?
+A. The length field displayed is reliant on the track data being set correctly
+   when the audio file was uploaded. Some file transfer utilies do not set this
+   information correctly (and earlier versions of gMTP are also guilty of this).
+   Simply download and re-upload the audio file using gMTP to correct the track
+   data on the player.
+
+Q. I have the same audio file loaded on my device in different formats, but the 
+   song duration is different between them?
+A. WMA, FLAC and OGG all store the song duration in header information, and
+   this is set by the encoder used to create the file. It may be a bug with the
+   encoder? With MP3 files, the track duration is calculated when the file is
+   uploaded, so this information should be correct unless you have a corrupt
+   MP3 file.
+
+Q. The translations are pretty awful or just plain wrong, or why don't you have
+   xyz language?
+A. The initial translations were done using Google Translate services, so
+   accuracy is not 100%. Please email me with corrections to existing
+   translations. If you would like a particular language added, and are happy
+   to assist, please let me know or simply email me with the correct *.po file
+   with the translations for your langauge.
+
+Q. I'm using French Canadian (fr_CA.UTF-8) as my locale on Solaris 10, but I
+   don't get French translations?
+A. This is due to an idiosyncrasy on Solaris 10 and language translations.
+   Either:
+   1. Copy the gmtp.mo file from /usr/local/share/locale/fr/LC_MESSAGES to
+   /usr/local/share/locale/fr.UTF-8/LC_MESSAGES, and restart gmtp.
+   2. or, create a symlink fr.UTF-8 pointing to fr in /usr/local/share/locale
+   using 'ln -s fr fr.UTF-8'.
+
+   French translations should now be present. (Technical information: On
+   Solaris, the gettext() call will only look in the current locale folder as
+   defined by the LC_MESSAGES environment variable and not the base language
+   folder as well for translations, so if the locale is set to 'fr.UTF-8',
+   gettext() will only look in that locale folder and not 'fr' as well - which
+   is what the GNU version of gettext() does). This applies to all languages
+   on Solaris 10. For Linux/FreeBSD uses this should not be an issue as most
+   will use the GNU version of gettext().
+
+Q. The column view options do not appear to be working?
+A. The gconf schema was updated in v0.8. Please update your local schema
+   file.
+   
+Q. I'm attempting to move some files, and I always get an error. What's the 
+   issue?
+A. gMTP uses the MTP function 'moveObject' to perform move operations. 
+   However only a few devices actually support this function, and if they
+   do actually advertise it supports the function, it may be horribly
+   broken. Basically complain to your device manufacturer that it doesn't
+   support this function, and that they should add it in.
+   To see if you device has this option available, run 'mtp-detect' and look
+   under the supported commands for command '1019: MoveObject'.
+   The other method I could use is to download the files/folders to your
+   PC, re-upload them again and delete the originals, however this is very
+   time intensive, and in these cases it's better than the user do this 
+   themselves.
+
+Q. I have an Android device and .... isn't working?
+A. There are a few answers or explanations with Android.
+   1. Some device vendors have opted to use their own MTP software stack with
+      their device, and some of these implementations are horribly broken.
+      Contact your device manufacturer for further assistance. (AFAIK, this is
+      primarily Samsung with Android 2.x devices, and some lesser known Chinese
+      developed handsets often rebadged as Carrier own-brand handsets).
+   2. Android 1.x-2.x doesn't have a native MTP implementation, so if your
+      device has MTP functionality, see the above comment.
+   3. Android 3.x-4.x has native MTP functionality, but is missing some 
+      features and does have some bugs in the implementation. Some noted 
+      issues:
+      a. Does not support albums or album metadata. So you can't upload custom
+         album art.
+      b. Some users have reported issues with Playlist support. (Try to get a
+         newer revision of your version of Android).
+      c. Android 3.2 has a nasty bug, in that an application is unable to 
+         call the Storage APIs more than once in a session. gMTP 1.3.2 works 
+         around this by caching the device storage information. (but not the 
+         file listing or related metadata).
+      d. Samsung Galaxy and Google Nexus devices have connectivity issues, that
+         I'm hoping can be resolved via patches to libmtp. Sorry, there is 
+         nothing I can do about that situation. Complain to Samsung and Google, 
+         and try to get them actively involved in libmtp. Also try the 
+         alternate access method, as this may improve things.
+
+Q. What is the alternate access method?
+A. There are two main methods of accessing MTP based devices, either cached or 
+   uncached. gMTP originally only used the cached method as this worked well for 
+   the majority of devices. (All device information including file/track 
+   information was cached in the application for performance reasons). With the 
+   introduction of Google's MTP stack in Android 3.x, it changed many things, in
+   particular that it only worked well in uncached mode. (Android's MTP stack as 
+   far as I know is server implementation that shares the underlying resource 
+   with the device and the host PC, unlike the usual MP3 scenario, where the 
+   once the host device took connect it was given sole access to the media 
+   storage). Because of this shared nature, using cached information in the 
+   application is a "really bad idea", since you're relying on information that 
+   may change. So gMTP now has the ability to use the uncached mode as well, which
+   should improve stability with Android 3.x and newer devices that use MTP. The 
+   downside to the uncached mode, is that every action now requires getting data 
+   from the device, which may be painful on slower or congested USB busses...
+   (I would rather stability for users, and have them wait 0.5secs over an 
+   unstable and poor experience using the application). (Alternate access 
+   method = uncached mode).
+
+Q. What does the "g" part in gMTP stand for? It isn't to denote that you're a 
+   GNOME based application, is it? (If it does, that's lame).
+A. While many GNOME applications have a leading G, and likewise many KDE
+   applications have a K, the "g" actually stands for "graphical", as in:
+   "graphical MTP", since its a graphical interface for MTP based devices...
+   Sorry to disappoint people.
+
+
+TODO List
+
+1. Bugfixes as needed.
+2. Further translations.
+

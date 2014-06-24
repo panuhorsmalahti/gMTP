@@ -1,0 +1,311 @@
+
+html{
+	background:url('../images/bg_tile.jpg') #333d43;
+}
+
+body {
+	text-align: justify;
+	background:url('../images/bg_head.jpg') repeat-x top center, url('../images/bg_vert.jpg') repeat-x;
+	min-height:500px;
+	font: 14px 'Segoe UI',Arial, sans-serif;
+	color:#999999;
+	padding:10px;
+}
+
+h1, h2, h3, h4 {
+    color: #bbbbbb;
+}
+
+img {
+	border: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin: 15px 0px 0px 10px;
+}
+
+.code {
+    padding-left: 20px;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.question {
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+.pref {
+    font-weight: bold;
+}
+
+
+#ContentArea {
+	clear: both;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+#ContentArea p {
+    padding-left: 30px;
+}
+
+#ContentArea li {
+    margin-left: 10px;
+}
+
+.TitlePage {
+    float: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.enlarge{
+    list-style-type:none; /*remove the bullet point*/
+    margin-left:0;
+}
+
+ul.enlarge li{
+    display:inline-block; /*places the images in a line*/
+    position: relative;
+    z-index: 0; /*resets the stack order of the list items - later we'll increase this*/
+    margin:10px 40px 0 20px;
+}
+
+ul.enlarge img{
+    background-color:#eae9d4;
+    padding: 6px;
+    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+ul.enlarge span{
+    position:absolute;
+    left: -9999px;
+    background-color:#eae9d4;
+    padding: 10px;
+    font-size:.9em;
+    text-align: center;
+    color: #495a62;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+    -moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+    box-shadow: 0 0 20px rgba(0,0,0, .75);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius:8px;
+}
+
+ul.enlarge li:hover{
+    z-index: 50;
+    cursor:pointer;
+}
+
+ul.enlarge span img{
+    padding:2px;
+    background:#ccc;
+}
+
+ul.enlarge li:hover span{
+    top: -200px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+    left: -50px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+
+ul.enlarge li:hover:nth-child(2) span{
+    left: -200px;
+}
+
+ul.enlarge li:hover:nth-child(3) span{
+    left: -400px;
+}
+
+
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+	
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #5d5d5d;
+	display: inline-block;
+	font: 16px/1 Arial,sans-serif;
+	padding: 12px 35px 14px;
+	position: relative;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+
+.fancyNav a.homeIcon{
+	background:url('../images/home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+nav{
+	margin: 10px auto 0;
+	text-align: center;
+	width: 600px;
+}
+
+footer{
+    clear: both;
+	color: #BBBBBB;
+	font-size: small;
+	line-height: 1.6;
+	padding: 60px 20px 0;
+	text-align: center;
+	display:block;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.indexLeft {
+    float: left;
+    width: 30%;
+    z-index: 2;
+}
+
+.indexRight {
+    float: right;
+    width: 60%;
+    margin: 48px 0px 0px 0px;
+}

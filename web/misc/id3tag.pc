@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: id3tag
+Description: id3tag Library
+Requires:
+Version: 0.15.1
+Libs: -L${libdir} -lid3tag
+Cflags: -I${includedir}
