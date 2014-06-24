@@ -324,15 +324,22 @@ void deviceProperties() {
             g_free(tmp_string);
         }
         // Secure Time
-        ret = LIBMTP_Get_Secure_Time(DeviceMgr.device, &tmp_string);
-        if (ret == 0 && tmp_string != NULL) {
-            // tmp_string is a XML fragment, and we need just the date/time out of it.
-            DeviceMgr.sectime = g_string_new(tmp_string);
-            g_free(tmp_string);
-        } else {
-            // Silently ignore - there may be devices not supporting secure time.
+        if (DeviceMgr.ProductID == 26720) {
+            // Not supported on Galaxy S5, Hex ProductID 6860
+            // TODO: Make a proper list of non-supported devices.
+            // https://github.com/panuhorsmalahti/gMTP/issues/1
             DeviceMgr.sectime = g_string_new(_("N/A"));
-            LIBMTP_Clear_Errorstack(DeviceMgr.device);
+        } else {
+            ret = LIBMTP_Get_Secure_Time(DeviceMgr.device, &tmp_string);
+            if (ret == 0 && tmp_string != NULL) {
+                // tmp_string is a XML fragment, and we need just the date/time out of it.
+                DeviceMgr.sectime = g_string_new(tmp_string);
+                g_free(tmp_string);
+            } else {
+                // Silently ignore - there may be devices not supporting secure time.
+                DeviceMgr.sectime = g_string_new(_("N/A"));
+                LIBMTP_Clear_Errorstack(DeviceMgr.device);
+            }
         }
 
         // Storage.
