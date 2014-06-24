@@ -1,0 +1,14 @@
+src/*.o
+src/gmtp
+src/.deps
+config.h
+config.log
+config.status
+Makefile
+src/Makefile
+stamp-h1
+misc/org.gnome.gmtp.gschema.valid
+images/Makefile
+misc/Makefile
+po/Makefile
+po/Makefile.in
